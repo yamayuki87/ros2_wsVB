@@ -1,0 +1,6 @@
+read_write_node:
+  ros__parameters:
+    port_name: "/dev/ttyUSB0"
+    baud_rate: 57600
+    dxl_id: 1
+

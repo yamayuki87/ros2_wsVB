@@ -1,0 +1,857 @@
+[0.000000] (-) TimerEvent: {}
+[0.024990] (dynamixel_sdk) JobQueued: {'identifier': 'dynamixel_sdk', 'dependencies': OrderedDict()}
+[0.025052] (dynamixel_sdk_custom_interfaces) JobQueued: {'identifier': 'dynamixel_sdk_custom_interfaces', 'dependencies': OrderedDict()}
+[0.025066] (joysub) JobQueued: {'identifier': 'joysub', 'dependencies': OrderedDict()}
+[0.025077] (dynamixel_sdk_examples) JobQueued: {'identifier': 'dynamixel_sdk_examples', 'dependencies': OrderedDict({'dynamixel_sdk': '/home/yama/ros2_ws/src/install/dynamixel_sdk', 'dynamixel_sdk_custom_interfaces': '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces'})}
+[0.025095] (dynamixel_sdk) JobStarted: {'identifier': 'dynamixel_sdk'}
+[0.053930] (dynamixel_sdk) JobProgress: {'identifier': 'dynamixel_sdk', 'progress': 'cmake'}
+[0.055995] (dynamixel_sdk) JobProgress: {'identifier': 'dynamixel_sdk', 'progress': 'build'}
+[0.056500] (dynamixel_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yama/ros2_ws/src/build/dynamixel_sdk', '--', '-j1', '-l1'], 'cwd': '/home/yama/ros2_ws/src/build/dynamixel_sdk', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yama', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yama', 'OLDPWD': '/home/yama/ros2_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2269', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/yama/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yama', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yama-VirtualBox:@/tmp/.ICE-unix/2232,unix/yama-VirtualBox:/tmp/.ICE-unix/2232', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/03dca56e_2aac_423e_acdd_350404a3fa89', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yama/ros2_ws/src/build/dynamixel_sdk', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.102398] (-) TimerEvent: {}
+[0.194895] (dynamixel_sdk) StdoutLine: {'line': b'[100%] Built target dynamixel_sdk\n'}
+[0.202513] (-) TimerEvent: {}
+[0.292921] (dynamixel_sdk) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_symlink_dynamixel_sdk\n'}
+[0.302591] (-) TimerEvent: {}
+[0.416938] (-) TimerEvent: {}
+[0.520459] (-) TimerEvent: {}
+[0.624414] (-) TimerEvent: {}
+[0.729479] (-) TimerEvent: {}
+[0.810648] (dynamixel_sdk) StdoutLine: {'line': b'running egg_info\n'}
+[0.817261] (dynamixel_sdk) StdoutLine: {'line': b'writing dynamixel_sdk.egg-info/PKG-INFO\n'}
+[0.819771] (dynamixel_sdk) StdoutLine: {'line': b'writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt\n'}
+[0.820699] (dynamixel_sdk) StdoutLine: {'line': b'writing top-level names to dynamixel_sdk.egg-info/top_level.txt\n'}
+[0.831469] (-) TimerEvent: {}
+[0.932643] (dynamixel_sdk) StdoutLine: {'line': b"reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'\n"}
+[0.934452] (-) TimerEvent: {}
+[0.956799] (dynamixel_sdk) StdoutLine: {'line': b"writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'\n"}
+[1.031481] (dynamixel_sdk) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_dynamixel_sdk_egg\n'}
+[1.034614] (-) TimerEvent: {}
+[1.070389] (dynamixel_sdk) CommandEnded: {'returncode': 0}
+[1.070739] (dynamixel_sdk) JobProgress: {'identifier': 'dynamixel_sdk', 'progress': 'install'}
+[1.096406] (dynamixel_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yama/ros2_ws/src/build/dynamixel_sdk'], 'cwd': '/home/yama/ros2_ws/src/build/dynamixel_sdk', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yama', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yama', 'OLDPWD': '/home/yama/ros2_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2269', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/yama/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yama', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yama-VirtualBox:@/tmp/.ICE-unix/2232,unix/yama-VirtualBox:/tmp/.ICE-unix/2232', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/03dca56e_2aac_423e_acdd_350404a3fa89', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yama/ros2_ws/src/build/dynamixel_sdk', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.111385] (dynamixel_sdk) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.111903] (dynamixel_sdk) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.112521] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h\n'}
+[1.112729] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h\n'}
+[1.112983] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h\n'}
+[1.113156] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h\n'}
+[1.113308] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h\n'}
+[1.113516] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h\n'}
+[1.113586] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h\n'}
+[1.113720] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h\n'}
+[1.114076] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h\n'}
+[1.114135] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h\n'}
+[1.114269] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h\n'}
+[1.114332] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h\n'}
+[1.114461] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h\n'}
+[1.114595] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h\n'}
+[1.114873] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h\n'}
+[1.114965] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h\n'}
+[1.115448] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/libdynamixel_sdk.so\n'}
+[1.115533] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh\n'}
+[1.115754] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv\n'}
+[1.116193] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-3.8.3-py3.12.egg-info/PKG-INFO\n'}
+[1.116373] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-3.8.3-py3.12.egg-info/SOURCES.txt\n'}
+[1.116445] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-3.8.3-py3.12.egg-info/dependency_links.txt\n'}
+[1.117260] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-3.8.3-py3.12.egg-info/top_level.txt\n'}
+[1.117367] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/__init__.py\n'}
+[1.117533] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.cpp\n'}
+[1.117716] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.py\n'}
+[1.117880] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.cpp\n'}
+[1.118029] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.py\n'}
+[1.118238] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_bulk_read.cpp\n'}
+[1.118310] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_sync_read.cpp\n'}
+[1.118458] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_handler.cpp\n'}
+[1.118704] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.cpp\n'}
+[1.118897] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.py\n'}
+[1.118964] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.cpp\n'}
+[1.119098] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.py\n'}
+[1.119302] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.cpp\n'}
+[1.119440] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.py\n'}
+[1.119508] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.cpp\n'}
+[1.119756] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.py\n'}
+[1.119832] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_arduino.cpp\n'}
+[1.120104] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_linux.cpp\n'}
+[1.120194] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_mac.cpp\n'}
+[1.120363] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_windows.cpp\n'}
+[1.120607] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.cpp\n'}
+[1.120684] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py\n'}
+[1.120840] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.cpp\n'}
+[1.123539] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.py\n'}
+[1.123808] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/robotis_def.py\n'}
+[1.124389] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh\n'}
+[1.124516] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv\n'}
+[1.124821] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk\n'}
+[1.125222] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk\n'}
+[1.125554] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh\n'}
+[1.125844] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv\n'}
+[1.126390] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh\n'}
+[1.126520] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv\n'}
+[1.126804] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash\n'}
+[1.127285] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh\n'}
+[1.127628] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh\n'}
+[1.128069] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv\n'}
+[1.128209] (dynamixel_sdk) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv\n'}
+[1.141427] (-) TimerEvent: {}
+[1.168920] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk\n'}
+[1.169166] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.184441] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.185048] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake\n'}
+[1.185270] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake\n'}
+[1.185544] (dynamixel_sdk) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/package.xml\n'}
+[1.232777] (dynamixel_sdk) StdoutLine: {'line': b"Listing '/home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk'...\n"}
+[1.246852] (dynamixel_sdk) CommandEnded: {'returncode': 0}
+[1.247182] (-) TimerEvent: {}
+[1.301766] (dynamixel_sdk) JobEnded: {'identifier': 'dynamixel_sdk', 'rc': 0}
+[1.308298] (dynamixel_sdk_custom_interfaces) JobStarted: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[1.331934] (dynamixel_sdk_custom_interfaces) JobProgress: {'identifier': 'dynamixel_sdk_custom_interfaces', 'progress': 'cmake'}
+[1.333475] (dynamixel_sdk_custom_interfaces) JobProgress: {'identifier': 'dynamixel_sdk_custom_interfaces', 'progress': 'build'}
+[1.333670] (dynamixel_sdk_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces', '--', '-j1', '-l1'], 'cwd': '/home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yama', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yama', 'OLDPWD': '/home/yama/ros2_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2269', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/yama/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yama', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yama-VirtualBox:@/tmp/.ICE-unix/2232,unix/yama-VirtualBox:/tmp/.ICE-unix/2232', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/03dca56e_2aac_423e_acdd_350404a3fa89', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.349383] (-) TimerEvent: {}
+[1.452436] (-) TimerEvent: {}
+[1.534612] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[  2%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_type_description\n'}
+[1.553511] (-) TimerEvent: {}
+[1.642899] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 20%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c\n'}
+[1.654159] (-) TimerEvent: {}
+[1.736140] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 29%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.754414] (-) TimerEvent: {}
+[1.808646] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 31%] Built target dynamixel_sdk_custom_interfaces__cpp\n'}
+[1.854611] (-) TimerEvent: {}
+[1.865113] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 40%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.955080] (-) TimerEvent: {}
+[1.985516] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 50%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.021752] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 59%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c\n'}
+[2.055816] (-) TimerEvent: {}
+[2.080584] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 68%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.122871] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 77%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp\n'}
+[2.153032] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 77%] Built target dynamixel_sdk_custom_interfaces\n'}
+[2.156380] (-) TimerEvent: {}
+[2.227953] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 77%] Built target ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces\n'}
+[2.267081] (-) TimerEvent: {}
+[2.371384] (-) TimerEvent: {}
+[2.474537] (-) TimerEvent: {}
+[2.576369] (-) TimerEvent: {}
+[2.649443] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.675929] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO\n'}
+[2.678737] (-) TimerEvent: {}
+[2.690278] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt\n'}
+[2.701577] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt\n'}
+[2.776470] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[2.777730] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[2.780387] (-) TimerEvent: {}
+[2.880781] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 77%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg\n'}
+[2.881025] (-) TimerEvent: {}
+[2.949257] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 79%] Built target dynamixel_sdk_custom_interfaces__py\n'}
+[2.981538] (-) TimerEvent: {}
+[3.008501] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 86%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py\n'}
+[3.054538] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 90%] Built target dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[3.083458] (-) TimerEvent: {}
+[3.147100] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 95%] Built target dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[3.187438] (-) TimerEvent: {}
+[3.210366] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[100%] Built target dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c\n'}
+[3.233966] (dynamixel_sdk_custom_interfaces) CommandEnded: {'returncode': 0}
+[3.234344] (dynamixel_sdk_custom_interfaces) JobProgress: {'identifier': 'dynamixel_sdk_custom_interfaces', 'progress': 'install'}
+[3.234362] (dynamixel_sdk_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces'], 'cwd': '/home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yama', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yama', 'OLDPWD': '/home/yama/ros2_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2269', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/yama/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yama', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yama-VirtualBox:@/tmp/.ICE-unix/2232,unix/yama-VirtualBox:/tmp/.ICE-unix/2232', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/03dca56e_2aac_423e_acdd_350404a3fa89', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.266123] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.266383] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.266869] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces\n'}
+[3.267264] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.json\n'}
+[3.267912] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.json\n'}
+[3.268015] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h\n'}
+[3.268187] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h\n'}
+[3.268403] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.h\n'}
+[3.268745] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.268912] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.h\n'}
+[3.269063] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.h\n'}
+[3.269128] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h\n'}
+[3.269267] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.h\n'}
+[3.269578] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.h\n'}
+[3.269655] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.sh\n'}
+[3.273488] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.dsv\n'}
+[3.274449] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h\n'}
+[3.274778] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.275271] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h\n'}
+[3.275641] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp\n'}
+[3.275852] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp\n'}
+[3.276017] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp\n'}
+[3.276238] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.hpp\n'}
+[3.276400] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.276605] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.hpp\n'}
+[3.276707] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp\n'}
+[3.277051] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp\n'}
+[3.277159] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp\n'}
+[3.277412] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.hpp\n'}
+[3.277484] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.hpp\n'}
+[3.277960] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.278260] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.278670] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.278756] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h\n'}
+[3.278912] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.279065] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h\n'}
+[3.279507] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.279825] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.280073] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.sh\n'}
+[3.280160] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.dsv\n'}
+[3.281995] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-3.8.3-py3.12.egg-info/PKG-INFO\n'}
+[3.282285] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-3.8.3-py3.12.egg-info/SOURCES.txt\n'}
+[3.282365] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-3.8.3-py3.12.egg-info/dependency_links.txt\n'}
+[3.282515] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-3.8.3-py3.12.egg-info/top_level.txt\n'}
+[3.283198] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/__init__.py\n'}
+[3.283430] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.283513] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.283662] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.283814] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.so\n'}
+[3.284051] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[3.284119] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[3.284333] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py\n'}
+[3.284487] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py\n'}
+[3.284552] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c\n'}
+[3.284719] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py\n'}
+[3.285212] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py\n'}
+[3.285271] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c\n'}
+[3.285333] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[3.285660] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[3.285918] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.so\n'}
+[3.286121] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl\n'}
+[3.286342] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl\n'}
+[3.286679] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg\n'}
+[3.286764] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv\n'}
+[3.287048] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces\n'}
+[3.287260] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces\n'}
+[3.287490] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.sh\n'}
+[3.287546] (-) TimerEvent: {}
+[3.288118] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.288252] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.sh\n'}
+[3.288461] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.dsv\n'}
+[3.288654] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.bash\n'}
+[3.288832] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.sh\n'}
+[3.289012] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.zsh\n'}
+[3.289259] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.dsv\n'}
+[3.289369] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv\n'}
+[3.327342] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/packages/dynamixel_sdk_custom_interfaces\n'}
+[3.327575] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.327876] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.327980] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.328242] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.328500] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.328841] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.329640] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.330340] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig.cmake\n'}
+[3.330443] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig-version.cmake\n'}
+[3.330983] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.xml\n'}
+[3.331137] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so\n'}
+[3.331525] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.331989] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.334063] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.334230] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so\n'}
+[3.334629] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.335105] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.398410] (-) TimerEvent: {}
+[3.423385] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"Listing '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces'...\n"}
+[3.423894] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"Listing '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg'...\n"}
+[3.423980] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"Listing '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv'...\n"}
+[3.449026] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so\n'}
+[3.449596] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.449760] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.449922] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.450040] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.450264] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.450395] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.450556] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.450664] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.450891] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.450988] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.451108] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.451248] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.451457] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.451524] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.451620] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.451785] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.451851] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.462621] (dynamixel_sdk_custom_interfaces) CommandEnded: {'returncode': 0}
+[3.487086] (dynamixel_sdk_custom_interfaces) JobEnded: {'identifier': 'dynamixel_sdk_custom_interfaces', 'rc': 0}
+[3.493884] (joysub) JobStarted: {'identifier': 'joysub'}
+[3.498498] (-) TimerEvent: {}
+[3.515942] (joysub) JobProgress: {'identifier': 'joysub', 'progress': 'cmake'}
+[3.516322] (joysub) Command: {'cmd': ['/usr/bin/cmake', '/home/yama/ros2_ws/src/joysub', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/yama/ros2_ws/src/install/joysub'], 'cwd': '/home/yama/ros2_ws/src/build/joysub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yama', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yama', 'OLDPWD': '/home/yama/ros2_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2269', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/yama/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yama', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yama-VirtualBox:@/tmp/.ICE-unix/2232,unix/yama-VirtualBox:/tmp/.ICE-unix/2232', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/03dca56e_2aac_423e_acdd_350404a3fa89', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yama/ros2_ws/src/build/joysub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.598778] (-) TimerEvent: {}
+[3.699856] (-) TimerEvent: {}
+[3.772005] (joysub) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[3.802417] (-) TimerEvent: {}
+[3.904330] (joysub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.904526] (-) TimerEvent: {}
+[3.952761] (joysub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.006898] (-) TimerEvent: {}
+[4.114455] (-) TimerEvent: {}
+[4.143460] (joysub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.152270] (joysub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.153181] (joysub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.153356] (joysub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.168960] (joysub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.214717] (-) TimerEvent: {}
+[4.321524] (-) TimerEvent: {}
+[4.354000] (joysub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.364550] (joysub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.364754] (joysub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.365296] (joysub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.367202] (joysub) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.425381] (-) TimerEvent: {}
+[4.527654] (-) TimerEvent: {}
+[4.619375] (joysub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.640899] (-) TimerEvent: {}
+[4.744867] (joysub) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.745152] (-) TimerEvent: {}
+[4.815800] (joysub) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[4.852465] (-) TimerEvent: {}
+[4.877311] (joysub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[4.900143] (joysub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[4.935696] (joysub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.950542] (joysub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.957521] (-) TimerEvent: {}
+[5.047437] (joysub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[5.051344] (joysub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.062316] (-) TimerEvent: {}
+[5.162668] (-) TimerEvent: {}
+[5.212151] (joysub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[5.246484] (joysub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[5.272628] (-) TimerEvent: {}
+[5.328702] (joysub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.376608] (-) TimerEvent: {}
+[5.454245] (joysub) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[5.477466] (-) TimerEvent: {}
+[5.581950] (-) TimerEvent: {}
+[5.684496] (-) TimerEvent: {}
+[5.746526] (joysub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.790766] (-) TimerEvent: {}
+[5.894487] (-) TimerEvent: {}
+[6.009893] (-) TimerEvent: {}
+[6.086358] (joysub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.087360] (joysub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.094571] (joysub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.095659] (joysub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.100848] (joysub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.101136] (joysub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.105132] (joysub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.113754] (joysub) StdoutLine: {'line': b'-- Configuring done (2.6s)\n'}
+[6.113913] (-) TimerEvent: {}
+[6.133773] (joysub) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.144524] (joysub) StdoutLine: {'line': b'-- Build files have been written to: /home/yama/ros2_ws/src/build/joysub\n'}
+[6.163287] (joysub) CommandEnded: {'returncode': 0}
+[6.164843] (joysub) JobProgress: {'identifier': 'joysub', 'progress': 'build'}
+[6.165049] (joysub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yama/ros2_ws/src/build/joysub', '--', '-j1', '-l1'], 'cwd': '/home/yama/ros2_ws/src/build/joysub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yama', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yama', 'OLDPWD': '/home/yama/ros2_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2269', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/yama/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yama', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yama-VirtualBox:@/tmp/.ICE-unix/2232,unix/yama-VirtualBox:/tmp/.ICE-unix/2232', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/03dca56e_2aac_423e_acdd_350404a3fa89', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yama/ros2_ws/src/build/joysub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.214527] (-) TimerEvent: {}
+[6.317810] (-) TimerEvent: {}
+[6.318237] (joysub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joy_subscriber.dir/src/joy_subscriber.cpp.o\x1b[0m\n'}
+[6.418448] (-) TimerEvent: {}
+[6.529622] (-) TimerEvent: {}
+[6.630112] (-) TimerEvent: {}
+[6.731000] (-) TimerEvent: {}
+[6.835723] (-) TimerEvent: {}
+[6.937109] (-) TimerEvent: {}
+[7.039539] (-) TimerEvent: {}
+[7.142246] (-) TimerEvent: {}
+[7.243619] (-) TimerEvent: {}
+[7.346890] (-) TimerEvent: {}
+[7.447816] (-) TimerEvent: {}
+[7.549336] (-) TimerEvent: {}
+[7.660562] (-) TimerEvent: {}
+[7.763392] (-) TimerEvent: {}
+[7.867380] (-) TimerEvent: {}
+[7.970649] (-) TimerEvent: {}
+[8.081596] (-) TimerEvent: {}
+[8.189608] (-) TimerEvent: {}
+[8.300794] (-) TimerEvent: {}
+[8.407500] (-) TimerEvent: {}
+[8.511464] (-) TimerEvent: {}
+[8.626426] (-) TimerEvent: {}
+[8.731553] (-) TimerEvent: {}
+[8.833437] (-) TimerEvent: {}
+[8.938419] (-) TimerEvent: {}
+[9.044557] (-) TimerEvent: {}
+[9.147423] (-) TimerEvent: {}
+[9.250615] (-) TimerEvent: {}
+[9.377412] (-) TimerEvent: {}
+[9.481730] (-) TimerEvent: {}
+[9.586906] (-) TimerEvent: {}
+[9.701454] (-) TimerEvent: {}
+[9.803385] (-) TimerEvent: {}
+[9.906030] (-) TimerEvent: {}
+[10.020757] (-) TimerEvent: {}
+[10.123119] (-) TimerEvent: {}
+[10.231509] (-) TimerEvent: {}
+[10.334775] (-) TimerEvent: {}
+[10.438696] (-) TimerEvent: {}
+[10.543411] (-) TimerEvent: {}
+[10.648364] (-) TimerEvent: {}
+[10.753373] (-) TimerEvent: {}
+[10.868661] (-) TimerEvent: {}
+[10.972367] (-) TimerEvent: {}
+[11.076397] (-) TimerEvent: {}
+[11.181389] (-) TimerEvent: {}
+[11.286375] (-) TimerEvent: {}
+[11.391360] (-) TimerEvent: {}
+[11.497351] (-) TimerEvent: {}
+[11.602431] (-) TimerEvent: {}
+[11.717387] (-) TimerEvent: {}
+[11.821508] (-) TimerEvent: {}
+[11.925472] (-) TimerEvent: {}
+[12.028955] (-) TimerEvent: {}
+[12.144459] (-) TimerEvent: {}
+[12.248405] (-) TimerEvent: {}
+[12.353874] (-) TimerEvent: {}
+[12.458462] (-) TimerEvent: {}
+[12.562425] (-) TimerEvent: {}
+[12.667520] (-) TimerEvent: {}
+[12.768408] (-) TimerEvent: {}
+[12.874939] (-) TimerEvent: {}
+[12.979775] (-) TimerEvent: {}
+[13.083379] (-) TimerEvent: {}
+[13.208530] (-) TimerEvent: {}
+[13.312464] (-) TimerEvent: {}
+[13.416399] (-) TimerEvent: {}
+[13.517509] (-) TimerEvent: {}
+[13.624467] (-) TimerEvent: {}
+[13.728372] (-) TimerEvent: {}
+[13.831507] (-) TimerEvent: {}
+[13.935528] (-) TimerEvent: {}
+[14.050406] (-) TimerEvent: {}
+[14.155425] (-) TimerEvent: {}
+[14.258361] (-) TimerEvent: {}
+[14.361554] (-) TimerEvent: {}
+[14.465572] (-) TimerEvent: {}
+[14.580412] (-) TimerEvent: {}
+[14.685428] (-) TimerEvent: {}
+[14.788763] (-) TimerEvent: {}
+[14.892998] (-) TimerEvent: {}
+[15.016502] (-) TimerEvent: {}
+[15.120685] (-) TimerEvent: {}
+[15.224404] (-) TimerEvent: {}
+[15.327126] (-) TimerEvent: {}
+[15.430772] (-) TimerEvent: {}
+[15.535500] (-) TimerEvent: {}
+[15.649389] (-) TimerEvent: {}
+[15.752433] (-) TimerEvent: {}
+[15.857433] (-) TimerEvent: {}
+[15.960347] (-) TimerEvent: {}
+[16.063433] (-) TimerEvent: {}
+[16.167358] (-) TimerEvent: {}
+[16.270441] (-) TimerEvent: {}
+[16.383953] (-) TimerEvent: {}
+[16.488374] (-) TimerEvent: {}
+[16.592981] (-) TimerEvent: {}
+[16.695747] (-) TimerEvent: {}
+[16.799370] (-) TimerEvent: {}
+[16.903393] (-) TimerEvent: {}
+[17.008387] (-) TimerEvent: {}
+[17.113366] (-) TimerEvent: {}
+[17.219594] (-) TimerEvent: {}
+[17.323610] (-) TimerEvent: {}
+[17.428427] (-) TimerEvent: {}
+[17.543406] (-) TimerEvent: {}
+[17.647381] (-) TimerEvent: {}
+[17.757535] (-) TimerEvent: {}
+[17.887752] (-) TimerEvent: {}
+[18.002516] (-) TimerEvent: {}
+[18.105578] (-) TimerEvent: {}
+[18.208426] (-) TimerEvent: {}
+[18.312510] (-) TimerEvent: {}
+[18.417348] (-) TimerEvent: {}
+[18.522061] (-) TimerEvent: {}
+[18.626599] (-) TimerEvent: {}
+[18.730414] (-) TimerEvent: {}
+[18.835573] (-) TimerEvent: {}
+[18.939503] (-) TimerEvent: {}
+[19.044374] (-) TimerEvent: {}
+[19.148013] (-) TimerEvent: {}
+[19.263376] (-) TimerEvent: {}
+[19.368501] (-) TimerEvent: {}
+[19.473409] (-) TimerEvent: {}
+[19.577402] (-) TimerEvent: {}
+[19.678415] (-) TimerEvent: {}
+[19.787559] (-) TimerEvent: {}
+[19.889904] (-) TimerEvent: {}
+[19.994522] (-) TimerEvent: {}
+[20.098388] (-) TimerEvent: {}
+[20.202795] (-) TimerEvent: {}
+[20.307428] (-) TimerEvent: {}
+[20.412444] (-) TimerEvent: {}
+[20.516370] (-) TimerEvent: {}
+[20.620442] (-) TimerEvent: {}
+[20.724937] (-) TimerEvent: {}
+[20.839873] (-) TimerEvent: {}
+[20.943381] (-) TimerEvent: {}
+[21.046354] (-) TimerEvent: {}
+[21.149492] (-) TimerEvent: {}
+[21.263981] (-) TimerEvent: {}
+[21.375578] (-) TimerEvent: {}
+[21.483431] (-) TimerEvent: {}
+[21.588483] (-) TimerEvent: {}
+[21.691468] (-) TimerEvent: {}
+[21.794723] (-) TimerEvent: {}
+[21.898612] (-) TimerEvent: {}
+[22.003437] (-) TimerEvent: {}
+[22.109398] (-) TimerEvent: {}
+[22.212359] (-) TimerEvent: {}
+[22.315419] (-) TimerEvent: {}
+[22.428515] (-) TimerEvent: {}
+[22.532611] (-) TimerEvent: {}
+[22.656391] (-) TimerEvent: {}
+[22.759578] (-) TimerEvent: {}
+[22.863437] (-) TimerEvent: {}
+[22.965435] (-) TimerEvent: {}
+[23.069500] (-) TimerEvent: {}
+[23.172688] (-) TimerEvent: {}
+[23.276405] (-) TimerEvent: {}
+[23.389739] (-) TimerEvent: {}
+[23.493046] (-) TimerEvent: {}
+[23.607414] (-) TimerEvent: {}
+[23.712349] (-) TimerEvent: {}
+[23.817419] (-) TimerEvent: {}
+[23.921393] (-) TimerEvent: {}
+[24.026451] (-) TimerEvent: {}
+[24.132550] (-) TimerEvent: {}
+[24.235369] (-) TimerEvent: {}
+[24.350574] (-) TimerEvent: {}
+[24.454483] (-) TimerEvent: {}
+[24.560462] (-) TimerEvent: {}
+[24.664452] (-) TimerEvent: {}
+[24.769379] (-) TimerEvent: {}
+[24.869756] (-) TimerEvent: {}
+[24.986545] (-) TimerEvent: {}
+[25.090367] (-) TimerEvent: {}
+[25.203504] (-) TimerEvent: {}
+[25.306260] (-) TimerEvent: {}
+[25.409743] (-) TimerEvent: {}
+[25.513406] (-) TimerEvent: {}
+[25.627442] (-) TimerEvent: {}
+[25.731376] (-) TimerEvent: {}
+[25.835398] (-) TimerEvent: {}
+[25.940513] (-) TimerEvent: {}
+[26.044426] (-) TimerEvent: {}
+[26.146825] (-) TimerEvent: {}
+[26.257468] (-) TimerEvent: {}
+[26.264805] (joysub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joy_subscriber\x1b[0m\n'}
+[26.358116] (-) TimerEvent: {}
+[26.458877] (-) TimerEvent: {}
+[26.569422] (-) TimerEvent: {}
+[26.671905] (-) TimerEvent: {}
+[26.773375] (-) TimerEvent: {}
+[26.878797] (-) TimerEvent: {}
+[26.984663] (-) TimerEvent: {}
+[27.091412] (-) TimerEvent: {}
+[27.192036] (-) TimerEvent: {}
+[27.203684] (joysub) StdoutLine: {'line': b'[100%] Built target joy_subscriber\n'}
+[27.254981] (joysub) CommandEnded: {'returncode': 0}
+[27.257347] (joysub) JobProgress: {'identifier': 'joysub', 'progress': 'install'}
+[27.257449] (joysub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yama/ros2_ws/src/build/joysub'], 'cwd': '/home/yama/ros2_ws/src/build/joysub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yama', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yama', 'OLDPWD': '/home/yama/ros2_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2269', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/yama/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yama', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yama-VirtualBox:@/tmp/.ICE-unix/2232,unix/yama-VirtualBox:/tmp/.ICE-unix/2232', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/03dca56e_2aac_423e_acdd_350404a3fa89', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yama/ros2_ws/src/build/joysub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[27.274039] (joysub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.274368] (joysub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[27.275140] (joysub) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/joysub/lib/joysub/joy_subscriber\n'}
+[27.293969] (-) TimerEvent: {}
+[27.322720] (joysub) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/joysub/share/ament_index/resource_index/package_run_dependencies/joysub\n'}
+[27.352970] (joysub) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/joysub/share/ament_index/resource_index/parent_prefix_path/joysub\n'}
+[27.380107] (joysub) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/joysub/share/joysub/environment/ament_prefix_path.sh\n'}
+[27.392494] (joysub) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/joysub/share/joysub/environment/ament_prefix_path.dsv\n'}
+[27.394524] (-) TimerEvent: {}
+[27.424496] (joysub) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/joysub/share/joysub/environment/path.sh\n'}
+[27.466491] (joysub) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/joysub/share/joysub/environment/path.dsv\n'}
+[27.483622] (joysub) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/joysub/share/joysub/local_setup.bash\n'}
+[27.495401] (-) TimerEvent: {}
+[27.520208] (joysub) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/joysub/share/joysub/local_setup.sh\n'}
+[27.548468] (joysub) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/joysub/share/joysub/local_setup.zsh\n'}
+[27.565601] (joysub) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/joysub/share/joysub/local_setup.dsv\n'}
+[27.591242] (joysub) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/joysub/share/joysub/package.dsv\n'}
+[27.596413] (-) TimerEvent: {}
+[27.635543] (joysub) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/joysub/share/ament_index/resource_index/packages/joysub\n'}
+[27.655941] (joysub) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/joysub/share/joysub/cmake/joysubConfig.cmake\n'}
+[27.668395] (joysub) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/joysub/share/joysub/cmake/joysubConfig-version.cmake\n'}
+[27.681508] (joysub) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/joysub/share/joysub/package.xml\n'}
+[27.704181] (joysub) CommandEnded: {'returncode': 0}
+[27.704433] (-) TimerEvent: {}
+[27.742765] (joysub) JobEnded: {'identifier': 'joysub', 'rc': 0}
+[27.743395] (dynamixel_sdk_examples) JobStarted: {'identifier': 'dynamixel_sdk_examples'}
+[27.786618] (dynamixel_sdk_examples) JobProgress: {'identifier': 'dynamixel_sdk_examples', 'progress': 'cmake'}
+[27.787363] (dynamixel_sdk_examples) Command: {'cmd': ['/usr/bin/cmake', '/home/yama/ros2_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/yama/ros2_ws/src/install/dynamixel_sdk_examples'], 'cwd': '/home/yama/ros2_ws/src/build/dynamixel_sdk_examples', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yama', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yama', 'OLDPWD': '/home/yama/ros2_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2269', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/yama/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yama', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yama-VirtualBox:@/tmp/.ICE-unix/2232,unix/yama-VirtualBox:/tmp/.ICE-unix/2232', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/03dca56e_2aac_423e_acdd_350404a3fa89', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yama/ros2_ws/src/build/dynamixel_sdk_examples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[27.807706] (-) TimerEvent: {}
+[27.912410] (-) TimerEvent: {}
+[27.937337] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[28.013429] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[28.013694] (-) TimerEvent: {}
+[28.096510] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[28.113862] (-) TimerEvent: {}
+[28.218403] (-) TimerEvent: {}
+[28.281796] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[28.290743] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[28.291239] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[28.291821] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[28.305228] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[28.318584] (-) TimerEvent: {}
+[28.423566] (-) TimerEvent: {}
+[28.518227] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[28.527301] (-) TimerEvent: {}
+[28.533087] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[28.534541] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[28.535214] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[28.551833] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[28.632581] (-) TimerEvent: {}
+[28.736397] (-) TimerEvent: {}
+[28.805118] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[28.837427] (-) TimerEvent: {}
+[28.935445] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[28.945420] (-) TimerEvent: {}
+[28.986336] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found dynamixel_sdk: 3.8.3 (/home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake)\n'}
+[28.988039] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found dynamixel_sdk_custom_interfaces: 3.8.3 (/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)\n'}
+[29.030685] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[29.044143] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[29.049312] (-) TimerEvent: {}
+[29.090109] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[29.122505] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[29.155188] (-) TimerEvent: {}
+[29.219951] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[29.254368] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[29.256996] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[29.257143] (-) TimerEvent: {}
+[29.357413] (-) TimerEvent: {}
+[29.422071] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[29.443513] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[29.461369] (-) TimerEvent: {}
+[29.489514] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[29.563429] (-) TimerEvent: {}
+[29.627929] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[29.631864] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[29.666012] (-) TimerEvent: {}
+[29.770472] (-) TimerEvent: {}
+[29.871448] (-) TimerEvent: {}
+[29.952685] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[29.955745] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[29.957590] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/yama/ros2_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples/include\n'}
+[29.957754] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[29.959756] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[29.959963] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[29.961044] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[29.961246] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[29.962271] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[29.963258] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[29.966412] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[29.966571] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[29.966951] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[29.968771] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Configuring done (2.1s)\n'}
+[29.977399] (-) TimerEvent: {}
+[29.988527] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[30.000462] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Build files have been written to: /home/yama/ros2_ws/src/build/dynamixel_sdk_examples\n'}
+[30.022028] (dynamixel_sdk_examples) CommandEnded: {'returncode': 0}
+[30.022768] (dynamixel_sdk_examples) JobProgress: {'identifier': 'dynamixel_sdk_examples', 'progress': 'build'}
+[30.023040] (dynamixel_sdk_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yama/ros2_ws/src/build/dynamixel_sdk_examples', '--', '-j1', '-l1'], 'cwd': '/home/yama/ros2_ws/src/build/dynamixel_sdk_examples', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yama', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yama', 'OLDPWD': '/home/yama/ros2_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2269', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/yama/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yama', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yama-VirtualBox:@/tmp/.ICE-unix/2232,unix/yama-VirtualBox:/tmp/.ICE-unix/2232', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/03dca56e_2aac_423e_acdd_350404a3fa89', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yama/ros2_ws/src/build/dynamixel_sdk_examples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[30.077702] (-) TimerEvent: {}
+[30.182858] (-) TimerEvent: {}
+[30.225782] (dynamixel_sdk_examples) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o\x1b[0m\n'}
+[30.289408] (-) TimerEvent: {}
+[30.402686] (-) TimerEvent: {}
+[30.506030] (-) TimerEvent: {}
+[30.619535] (-) TimerEvent: {}
+[30.725341] (-) TimerEvent: {}
+[30.841147] (-) TimerEvent: {}
+[30.943432] (-) TimerEvent: {}
+[31.048395] (-) TimerEvent: {}
+[31.152630] (-) TimerEvent: {}
+[31.257378] (-) TimerEvent: {}
+[31.362483] (-) TimerEvent: {}
+[31.468113] (-) TimerEvent: {}
+[31.590496] (-) TimerEvent: {}
+[31.694530] (-) TimerEvent: {}
+[31.797398] (-) TimerEvent: {}
+[31.901385] (-) TimerEvent: {}
+[32.004450] (-) TimerEvent: {}
+[32.108371] (-) TimerEvent: {}
+[32.210781] (-) TimerEvent: {}
+[32.315893] (-) TimerEvent: {}
+[32.420462] (-) TimerEvent: {}
+[32.522411] (-) TimerEvent: {}
+[32.631828] (-) TimerEvent: {}
+[32.732717] (-) TimerEvent: {}
+[32.836432] (-) TimerEvent: {}
+[32.941405] (-) TimerEvent: {}
+[33.047397] (-) TimerEvent: {}
+[33.153360] (-) TimerEvent: {}
+[33.258543] (-) TimerEvent: {}
+[33.362762] (-) TimerEvent: {}
+[33.467426] (-) TimerEvent: {}
+[33.572447] (-) TimerEvent: {}
+[33.675374] (-) TimerEvent: {}
+[33.784483] (-) TimerEvent: {}
+[33.892029] (-) TimerEvent: {}
+[33.998501] (-) TimerEvent: {}
+[34.102492] (-) TimerEvent: {}
+[34.208459] (-) TimerEvent: {}
+[34.313909] (-) TimerEvent: {}
+[34.418436] (-) TimerEvent: {}
+[34.535481] (-) TimerEvent: {}
+[34.637723] (-) TimerEvent: {}
+[34.744524] (-) TimerEvent: {}
+[34.848497] (-) TimerEvent: {}
+[34.950428] (-) TimerEvent: {}
+[35.054416] (-) TimerEvent: {}
+[35.158434] (-) TimerEvent: {}
+[35.266380] (-) TimerEvent: {}
+[35.369539] (-) TimerEvent: {}
+[35.484622] (-) TimerEvent: {}
+[35.589605] (-) TimerEvent: {}
+[35.694424] (-) TimerEvent: {}
+[35.801463] (-) TimerEvent: {}
+[35.904490] (-) TimerEvent: {}
+[36.007438] (-) TimerEvent: {}
+[36.113471] (-) TimerEvent: {}
+[36.217417] (-) TimerEvent: {}
+[36.326567] (-) TimerEvent: {}
+[36.433528] (-) TimerEvent: {}
+[36.537486] (-) TimerEvent: {}
+[36.641750] (-) TimerEvent: {}
+[36.744552] (-) TimerEvent: {}
+[36.848416] (-) TimerEvent: {}
+[36.954346] (-) TimerEvent: {}
+[37.058681] (-) TimerEvent: {}
+[37.173554] (-) TimerEvent: {}
+[37.278568] (-) TimerEvent: {}
+[37.384381] (-) TimerEvent: {}
+[37.489431] (-) TimerEvent: {}
+[37.594529] (-) TimerEvent: {}
+[37.699417] (-) TimerEvent: {}
+[37.801488] (-) TimerEvent: {}
+[37.919485] (-) TimerEvent: {}
+[38.021398] (-) TimerEvent: {}
+[38.135450] (-) TimerEvent: {}
+[38.242789] (-) TimerEvent: {}
+[38.345453] (-) TimerEvent: {}
+[38.452649] (-) TimerEvent: {}
+[38.556995] (-) TimerEvent: {}
+[38.673764] (-) TimerEvent: {}
+[38.825818] (-) TimerEvent: {}
+[38.957542] (-) TimerEvent: {}
+[39.089805] (-) TimerEvent: {}
+[39.194617] (-) TimerEvent: {}
+[39.309491] (-) TimerEvent: {}
+[39.430263] (-) TimerEvent: {}
+[39.534594] (-) TimerEvent: {}
+[39.645716] (-) TimerEvent: {}
+[39.764755] (-) TimerEvent: {}
+[39.869807] (-) TimerEvent: {}
+[39.990491] (-) TimerEvent: {}
+[40.118431] (-) TimerEvent: {}
+[40.231758] (-) TimerEvent: {}
+[40.338278] (-) TimerEvent: {}
+[40.447472] (-) TimerEvent: {}
+[40.556611] (-) TimerEvent: {}
+[40.659593] (-) TimerEvent: {}
+[40.765502] (-) TimerEvent: {}
+[40.869413] (-) TimerEvent: {}
+[40.972423] (-) TimerEvent: {}
+[41.086582] (-) TimerEvent: {}
+[41.194375] (-) TimerEvent: {}
+[41.309407] (-) TimerEvent: {}
+[41.413363] (-) TimerEvent: {}
+[41.519464] (-) TimerEvent: {}
+[41.624523] (-) TimerEvent: {}
+[41.726432] (-) TimerEvent: {}
+[41.832421] (-) TimerEvent: {}
+[41.937392] (-) TimerEvent: {}
+[42.061457] (-) TimerEvent: {}
+[42.165486] (-) TimerEvent: {}
+[42.269368] (-) TimerEvent: {}
+[42.374494] (-) TimerEvent: {}
+[42.478525] (-) TimerEvent: {}
+[42.583364] (-) TimerEvent: {}
+[42.699428] (-) TimerEvent: {}
+[42.802691] (-) TimerEvent: {}
+[42.917380] (-) TimerEvent: {}
+[43.021347] (-) TimerEvent: {}
+[43.126499] (-) TimerEvent: {}
+[43.230847] (-) TimerEvent: {}
+[43.337608] (-) TimerEvent: {}
+[43.440436] (-) TimerEvent: {}
+[43.544633] (-) TimerEvent: {}
+[43.648760] (-) TimerEvent: {}
+[43.753750] (-) TimerEvent: {}
+[43.858427] (-) TimerEvent: {}
+[43.962621] (-) TimerEvent: {}
+[44.067342] (-) TimerEvent: {}
+[44.171377] (-) TimerEvent: {}
+[44.276407] (-) TimerEvent: {}
+[44.381376] (-) TimerEvent: {}
+[44.485372] (-) TimerEvent: {}
+[44.589400] (-) TimerEvent: {}
+[44.694593] (-) TimerEvent: {}
+[44.798624] (-) TimerEvent: {}
+[44.900639] (-) TimerEvent: {}
+[45.015533] (-) TimerEvent: {}
+[45.118360] (-) TimerEvent: {}
+[45.222363] (-) TimerEvent: {}
+[45.325385] (-) TimerEvent: {}
+[45.428428] (-) TimerEvent: {}
+[45.543481] (-) TimerEvent: {}
+[45.645613] (-) TimerEvent: {}
+[45.751602] (-) TimerEvent: {}
+[45.852788] (-) TimerEvent: {}
+[45.956379] (-) TimerEvent: {}
+[46.059679] (-) TimerEvent: {}
+[46.174490] (-) TimerEvent: {}
+[46.280516] (-) TimerEvent: {}
+[46.381645] (-) TimerEvent: {}
+[46.485394] (-) TimerEvent: {}
+[46.589465] (-) TimerEvent: {}
+[46.693390] (-) TimerEvent: {}
+[46.796390] (-) TimerEvent: {}
+[46.900393] (-) TimerEvent: {}
+[47.004376] (-) TimerEvent: {}
+[47.107607] (-) TimerEvent: {}
+[47.213458] (-) TimerEvent: {}
+[47.317981] (-) TimerEvent: {}
+[47.418438] (-) TimerEvent: {}
+[47.522395] (-) TimerEvent: {}
+[47.625388] (-) TimerEvent: {}
+[47.730941] (-) TimerEvent: {}
+[47.832306] (-) TimerEvent: {}
+[47.936937] (-) TimerEvent: {}
+[48.051437] (-) TimerEvent: {}
+[48.153540] (-) TimerEvent: {}
+[48.269504] (-) TimerEvent: {}
+[48.371652] (-) TimerEvent: {}
+[48.474800] (-) TimerEvent: {}
+[48.577723] (-) TimerEvent: {}
+[48.691481] (-) TimerEvent: {}
+[48.799718] (-) TimerEvent: {}
+[48.865392] (dynamixel_sdk_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable read_write_node\x1b[0m\n'}
+[48.909449] (-) TimerEvent: {}
+[49.012400] (-) TimerEvent: {}
+[49.115445] (-) TimerEvent: {}
+[49.220556] (-) TimerEvent: {}
+[49.305699] (dynamixel_sdk_examples) StdoutLine: {'line': b'[100%] Built target read_write_node\n'}
+[49.320129] (dynamixel_sdk_examples) CommandEnded: {'returncode': 0}
+[49.320737] (dynamixel_sdk_examples) JobProgress: {'identifier': 'dynamixel_sdk_examples', 'progress': 'install'}
+[49.320761] (-) TimerEvent: {}
+[49.326880] (dynamixel_sdk_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yama/ros2_ws/src/build/dynamixel_sdk_examples'], 'cwd': '/home/yama/ros2_ws/src/build/dynamixel_sdk_examples', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yama', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yama', 'OLDPWD': '/home/yama/ros2_ws', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2269', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/yama/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yama', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yama-VirtualBox:@/tmp/.ICE-unix/2232,unix/yama-VirtualBox:/tmp/.ICE-unix/2232', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/03dca56e_2aac_423e_acdd_350404a3fa89', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yama/ros2_ws/src/build/dynamixel_sdk_examples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[49.360550] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[49.360801] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[49.363447] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node\n'}
+[49.401799] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node.py\n'}
+[49.415245] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples\n'}
+[49.423382] (-) TimerEvent: {}
+[49.448593] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples\n'}
+[49.472066] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh\n'}
+[49.487206] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv\n'}
+[49.500595] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh\n'}
+[49.512794] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv\n'}
+[49.525044] (-) TimerEvent: {}
+[49.541890] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash\n'}
+[49.567635] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh\n'}
+[49.582279] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh\n'}
+[49.594397] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv\n'}
+[49.606575] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv\n'}
+[49.623423] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples\n'}
+[49.625444] (-) TimerEvent: {}
+[49.654657] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake\n'}
+[49.672200] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake\n'}
+[49.686858] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml\n'}
+[49.705611] (dynamixel_sdk_examples) CommandEnded: {'returncode': 0}
+[49.725839] (-) TimerEvent: {}
+[49.731609] (dynamixel_sdk_examples) JobEnded: {'identifier': 'dynamixel_sdk_examples', 'rc': 0}
+[49.739191] (-) EventReactorShutdown: {}

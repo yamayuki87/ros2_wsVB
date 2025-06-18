@@ -1,0 +1,38 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_controller.dir/src/dynamixel_controller.cpp.o[0m
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:59:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   59 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:5:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    5 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:[m[K In constructor ‘[01m[KDynamixelController::[01;32m[KDynamixelController[m[K()[m[K’:
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:14:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kdxl_wb[m[K’ was not declared in this scope; did you mean ‘[01m[Kdxl_id[m[K’?
+   14 |     if (![01;31m[Kdxl_wb[m[K.init(device_name, baud_rate))
+      |          [01;31m[K^~~~~~[m[K
+      |          [32m[Kdxl_id[m[K
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:20:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kdxl_wb[m[K’ was not declared in this scope; did you mean ‘[01m[Kdxl_id[m[K’?
+   20 |     if (![01;31m[Kdxl_wb[m[K.ping(dxl_id))
+      |          [01;31m[K^~~~~~[m[K
+      |          [32m[Kdxl_id[m[K
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:27:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kdxl_wb[m[K’ was not declared in this scope; did you mean ‘[01m[Kdxl_id[m[K’?
+   27 |     if (![01;31m[Kdxl_wb[m[K.itemWrite(dxl_id, "Operating_Mode", 3)) // 3: Position mode
+      |          [01;31m[K^~~~~~[m[K
+      |          [32m[Kdxl_id[m[K
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:35:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kdxl_wb[m[K’ was not declared in this scope; did you mean ‘[01m[Kdxl_id[m[K’?
+   35 |     if (![01;31m[Kdxl_wb[m[K.jointMode(dxl_id, 0, 0))
+      |          [01;31m[K^~~~~~[m[K
+      |          [32m[Kdxl_id[m[K
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:42:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kdxl_wb[m[K’ was not declared in this scope; did you mean ‘[01m[Kdxl_id[m[K’?
+   42 |     if (![01;31m[Kdxl_wb[m[K.goalPosition(dxl_id, 2048)) // 安全な中間値
+      |          [01;31m[K^~~~~~[m[K
+      |          [32m[Kdxl_id[m[K
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:48:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+   48 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:[m[K At global scope:
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:59:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   59 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/dynamixel_controller.dir/build.make:76: CMakeFiles/dynamixel_controller.dir/src/dynamixel_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,8 @@
+source;share/joysub/hook/cmake_prefix_path.ps1
+source;share/joysub/hook/cmake_prefix_path.dsv
+source;share/joysub/hook/cmake_prefix_path.sh
+source;share/joysub/local_setup.bash
+source;share/joysub/local_setup.dsv
+source;share/joysub/local_setup.ps1
+source;share/joysub/local_setup.sh
+source;share/joysub/local_setup.zsh

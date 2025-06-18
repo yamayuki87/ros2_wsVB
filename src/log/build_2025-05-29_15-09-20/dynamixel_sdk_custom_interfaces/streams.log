@@ -1,0 +1,233 @@
+[0.026s] Invoking command in '/home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yama/ros2_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces
+[0.219s] -- The C compiler identification is GNU 13.3.0
+[0.340s] -- The CXX compiler identification is GNU 13.3.0
+[0.390s] -- Detecting C compiler ABI info
+[0.632s] -- Detecting C compiler ABI info - done
+[0.635s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.636s] -- Detecting C compile features
+[0.636s] -- Detecting C compile features - done
+[0.650s] -- Detecting CXX compiler ABI info
+[0.846s] -- Detecting CXX compiler ABI info - done
+[0.874s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.874s] -- Detecting CXX compile features
+[0.875s] -- Detecting CXX compile features - done
+[0.888s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.137s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.300s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.385s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.466s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.480s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.516s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.569s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.592s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.606s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.348s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.845s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.423s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.428s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.696s] -- Found PythonExtra: /usr/bin/python3  
+[6.833s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.929s] -- Configuring done (6.9s)
+[7.006s] -- Generating done (0.1s)
+[7.020s] -- Build files have been written to: /home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces
+[7.032s] Invoked command in '/home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yama/ros2_ws/src/DynamixelSDK/ros/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces
+[7.034s] Invoking command in '/home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces -- -j1 -l1
+[7.191s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.697s] [  2%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_type_description
+[7.755s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.591s] [  6%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__description.c.o[0m
+[8.642s] [  9%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c.o[0m
+[8.806s] [ 11%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c.o[0m
+[8.927s] [ 13%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__description.c.o[0m
+[9.091s] [ 15%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c.o[0m
+[9.239s] [ 18%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c.o[0m
+[9.340s] [ 20%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so[0m
+[9.451s] [ 20%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[9.481s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.384s] [ 25%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support_c.cpp.o[0m
+[11.265s] [ 27%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support_c.cpp.o[0m
+[12.015s] [ 29%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[12.115s] [ 29%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[12.219s] [ 31%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.809s] [ 31%] Built target dynamixel_sdk_custom_interfaces__cpp
+[12.836s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.552s] [ 36%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps/set_position__type_support.cpp.o[0m
+[14.400s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps/get_position__type_support.cpp.o[0m
+[15.670s] [ 40%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.880s] [ 40%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[15.898s] [ 43%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.413s] [ 45%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c.o[0m
+[16.480s] [ 47%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c.o[0m
+[16.616s] [ 50%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[16.714s] [ 50%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[16.734s] [ 52%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.175s] [ 54%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[17.248s] [ 56%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[17.333s] [ 59%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so[0m
+[17.402s] [ 59%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[17.429s] [ 61%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[17.881s] [ 63%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp.o[0m
+[18.385s] [ 65%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp.o[0m
+[19.027s] [ 68%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[19.267s] [ 68%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[19.299s] [ 70%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[19.787s] [ 72%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[20.521s] [ 75%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[21.510s] [ 77%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so[0m
+[21.699s] [ 77%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[21.770s] [ 77%] Built target dynamixel_sdk_custom_interfaces
+[21.854s] [ 77%] Built target ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
+[22.297s] running egg_info
+[22.297s] creating dynamixel_sdk_custom_interfaces.egg-info
+[22.344s] writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+[22.344s] writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+[22.344s] writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+[22.345s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[22.456s] reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[22.457s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[22.514s] [ 77%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg
+[22.608s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[23.423s] [ 79%] Built target dynamixel_sdk_custom_interfaces__py
+[23.459s] [ 81%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c.o[0m
+[23.785s] [ 84%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c.o[0m
+[24.060s] [ 86%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so[0m
+[24.193s] [ 86%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[24.250s] [ 88%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[24.447s] [ 90%] [32m[1mLinking C shared module rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[24.508s] [ 90%] Built target dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c
+[24.563s] [ 93%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[24.842s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[24.921s] [ 95%] Built target dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c
+[25.014s] [ 97%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[25.320s] [100%] [32m[1mLinking C shared module rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.so[0m
+[25.407s] [100%] Built target dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c
+[25.456s] Invoked command in '/home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces -- -j1 -l1
+[25.458s] Invoking command in '/home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces
+[25.498s] -- Install configuration: ""
+[25.500s] -- Execute custom install script
+[25.500s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces
+[25.534s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.json
+[25.558s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.json
+[25.595s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h
+[25.631s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h
+[25.651s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.h
+[25.686s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[25.722s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.h
+[25.751s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.h
+[25.816s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h
+[25.885s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.h
+[25.951s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.h
+[26.005s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.sh
+[26.040s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.dsv
+[26.057s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[26.071s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[26.114s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[26.154s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp
+[26.170s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp
+[26.203s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp
+[26.227s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.hpp
+[26.242s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[26.256s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.hpp
+[26.270s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp
+[26.316s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp
+[26.332s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp
+[26.345s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.hpp
+[26.359s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.hpp
+[26.375s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[26.414s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[26.456s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[26.469s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h
+[26.503s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[26.547s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[26.568s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[26.584s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[26.619s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.sh
+[26.642s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.dsv
+[26.659s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-3.8.3-py3.12.egg-info/PKG-INFO
+[26.673s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-3.8.3-py3.12.egg-info/SOURCES.txt
+[26.708s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-3.8.3-py3.12.egg-info/dependency_links.txt
+[26.749s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-3.8.3-py3.12.egg-info/top_level.txt
+[26.770s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/__init__.py
+[26.789s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[26.825s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[26.850s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[26.864s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.so
+[26.879s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[26.914s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[26.956s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py
+[26.981s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py
+[26.997s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c
+[27.037s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py
+[27.056s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py
+[27.077s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c
+[27.097s] -- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[27.098s] -- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[27.098s] -- Up-to-date symlink: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.so
+[27.098s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl
+[27.140s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl
+[27.175s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+[27.198s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv
+[27.238s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces
+[27.259s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces
+[27.281s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.sh
+[27.322s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.dsv
+[27.351s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.sh
+[27.362s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.dsv
+[27.375s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.bash
+[27.388s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.sh
+[27.403s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.zsh
+[27.434s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.dsv
+[27.447s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv
+[27.460s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/packages/dynamixel_sdk_custom_interfaces
+[27.478s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[27.500s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.539s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.558s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[27.569s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[27.582s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.598s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.639s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig.cmake
+[27.701s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig-version.cmake
+[27.736s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.xml
+[27.770s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so
+[27.775s] -- Set non-toolchain portion of runtime path of "/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so" to ""
+[27.775s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[27.775s] -- Set non-toolchain portion of runtime path of "/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[27.776s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[27.777s] -- Set non-toolchain portion of runtime path of "/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[27.777s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so
+[27.779s] -- Set non-toolchain portion of runtime path of "/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[27.779s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so
+[27.780s] -- Set non-toolchain portion of runtime path of "/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so" to ""
+[27.780s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[27.788s] -- Set non-toolchain portion of runtime path of "/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[27.788s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so
+[27.788s] -- Set non-toolchain portion of runtime path of "/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so" to ""
+[27.900s] Listing '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces'...
+[27.900s] Compiling '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/__init__.py'...
+[27.900s] Listing '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg'...
+[27.900s] Compiling '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py'...
+[27.900s] Compiling '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py'...
+[27.900s] Listing '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv'...
+[27.900s] Compiling '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py'...
+[27.900s] Compiling '/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py'...
+[27.901s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so
+[27.901s] -- Set non-toolchain portion of runtime path of "/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so" to ""
+[27.902s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport.cmake
+[27.902s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[27.902s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[27.903s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[27.903s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cppExport.cmake
+[27.903s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[27.904s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[27.910s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[27.911s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.911s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport.cmake
+[27.911s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[27.913s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[27.913s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.929s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[27.932s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[27.932s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport.cmake
+[27.932s] -- Installing: /home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[27.939s] Invoked command in '/home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yama/ros2_ws/src/build/dynamixel_sdk_custom_interfaces

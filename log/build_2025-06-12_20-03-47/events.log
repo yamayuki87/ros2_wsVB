@@ -1,0 +1,261 @@
+[0.000000] (-) TimerEvent: {}
+[0.023341] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.023445] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.023459] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.023469] (-) JobUnselected: {'identifier': 'dynamixeljoy'}
+[0.023478] (-) JobUnselected: {'identifier': 'exmple_dynamixel_cpp'}
+[0.023487] (-) JobUnselected: {'identifier': 'joysub'}
+[0.023500] (joyserv) JobQueued: {'identifier': 'joyserv', 'dependencies': OrderedDict()}
+[0.023517] (joyserv) JobStarted: {'identifier': 'joyserv'}
+[0.054387] (joyserv) JobProgress: {'identifier': 'joyserv', 'progress': 'cmake'}
+[0.054984] (joyserv) Command: {'cmd': ['/usr/bin/cmake', '/home/yama/ros2_ws/src/joyserv', '-DCMAKE_INSTALL_PREFIX=/home/yama/ros2_ws/install/joyserv'], 'cwd': '/home/yama/ros2_ws/build/joyserv', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yama', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yama', 'OLDPWD': '/home/yama/ros2_ws/src/joyserv', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2243', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yama', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yama-VirtualBox:@/tmp/.ICE-unix/2207,unix/yama-VirtualBox:/tmp/.ICE-unix/2207', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e4694322_5e11_4628_88e9_36d11e501082', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.90', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yama/ros2_ws/build/joyserv', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.100288] (-) TimerEvent: {}
+[0.190906] (joyserv) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.205792] (-) TimerEvent: {}
+[0.312284] (-) TimerEvent: {}
+[0.339193] (joyserv) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.412505] (-) TimerEvent: {}
+[0.453424] (joyserv) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.512725] (-) TimerEvent: {}
+[0.614372] (-) TimerEvent: {}
+[0.706417] (joyserv) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.715325] (-) TimerEvent: {}
+[0.721468] (joyserv) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.724054] (joyserv) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.725074] (joyserv) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.756826] (joyserv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.816312] (-) TimerEvent: {}
+[0.921277] (-) TimerEvent: {}
+[0.953575] (joyserv) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.961397] (joyserv) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.962060] (joyserv) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.963003] (joyserv) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.964988] (joyserv) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.024694] (-) TimerEvent: {}
+[1.126213] (-) TimerEvent: {}
+[1.163429] (joyserv) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.230211] (-) TimerEvent: {}
+[1.289197] (joyserv) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.332028] (-) TimerEvent: {}
+[1.386368] (joyserv) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.416328] (joyserv) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.431760] (joyserv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.436347] (-) TimerEvent: {}
+[1.449484] (joyserv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.541401] (-) TimerEvent: {}
+[1.609351] (joyserv) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.614708] (joyserv) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.644319] (-) TimerEvent: {}
+[1.757604] (-) TimerEvent: {}
+[1.859908] (-) TimerEvent: {}
+[1.935304] (joyserv) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.968409] (-) TimerEvent: {}
+[1.986624] (joyserv) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.044619] (joyserv) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.070337] (-) TimerEvent: {}
+[2.145755] (joyserv) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.172414] (-) TimerEvent: {}
+[2.263657] (joyserv) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.275228] (-) TimerEvent: {}
+[2.379277] (-) TimerEvent: {}
+[2.437309] (joyserv) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.437709] (joyserv) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.437822] (joyserv) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.438662] (joyserv) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.441397] (joyserv) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.441579] (joyserv) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.442236] (joyserv) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.443398] (joyserv) StdoutLine: {'line': b'-- Configuring done (2.4s)\n'}
+[2.454459] (joyserv) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.460316] (joyserv) StdoutLine: {'line': b'-- Build files have been written to: /home/yama/ros2_ws/build/joyserv\n'}
+[2.480438] (joyserv) CommandEnded: {'returncode': 0}
+[2.480918] (-) TimerEvent: {}
+[2.488904] (joyserv) JobProgress: {'identifier': 'joyserv', 'progress': 'build'}
+[2.504114] (joyserv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yama/ros2_ws/build/joyserv', '--', '-j1', '-l1'], 'cwd': '/home/yama/ros2_ws/build/joyserv', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yama', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yama', 'OLDPWD': '/home/yama/ros2_ws/src/joyserv', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2243', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yama', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yama-VirtualBox:@/tmp/.ICE-unix/2207,unix/yama-VirtualBox:/tmp/.ICE-unix/2207', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e4694322_5e11_4628_88e9_36d11e501082', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.90', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yama/ros2_ws/build/joyserv', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.582231] (-) TimerEvent: {}
+[2.642512] (joyserv) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joy_service.dir/src/joy_button_listener.cpp.o\x1b[0m\n'}
+[2.689281] (-) TimerEvent: {}
+[2.793305] (-) TimerEvent: {}
+[2.906949] (-) TimerEvent: {}
+[3.012335] (-) TimerEvent: {}
+[3.133485] (-) TimerEvent: {}
+[3.242962] (-) TimerEvent: {}
+[3.354080] (-) TimerEvent: {}
+[3.456584] (-) TimerEvent: {}
+[3.559536] (-) TimerEvent: {}
+[3.663202] (-) TimerEvent: {}
+[3.766265] (-) TimerEvent: {}
+[3.870705] (-) TimerEvent: {}
+[3.973444] (-) TimerEvent: {}
+[4.076471] (-) TimerEvent: {}
+[4.181370] (-) TimerEvent: {}
+[4.284215] (-) TimerEvent: {}
+[4.387455] (-) TimerEvent: {}
+[4.490602] (-) TimerEvent: {}
+[4.604294] (-) TimerEvent: {}
+[4.707792] (-) TimerEvent: {}
+[4.811308] (-) TimerEvent: {}
+[4.915367] (-) TimerEvent: {}
+[5.018250] (-) TimerEvent: {}
+[5.121277] (-) TimerEvent: {}
+[5.224425] (-) TimerEvent: {}
+[5.328684] (-) TimerEvent: {}
+[5.433387] (-) TimerEvent: {}
+[5.537353] (-) TimerEvent: {}
+[5.640324] (-) TimerEvent: {}
+[5.743466] (-) TimerEvent: {}
+[5.849625] (-) TimerEvent: {}
+[5.950445] (-) TimerEvent: {}
+[6.064555] (-) TimerEvent: {}
+[6.168305] (-) TimerEvent: {}
+[6.279848] (-) TimerEvent: {}
+[6.385398] (-) TimerEvent: {}
+[6.491183] (-) TimerEvent: {}
+[6.592285] (-) TimerEvent: {}
+[6.696346] (-) TimerEvent: {}
+[6.798618] (-) TimerEvent: {}
+[6.901215] (-) TimerEvent: {}
+[7.015262] (-) TimerEvent: {}
+[7.118246] (-) TimerEvent: {}
+[7.222215] (-) TimerEvent: {}
+[7.326414] (-) TimerEvent: {}
+[7.429792] (-) TimerEvent: {}
+[7.534775] (-) TimerEvent: {}
+[7.638557] (-) TimerEvent: {}
+[7.741292] (-) TimerEvent: {}
+[7.846363] (-) TimerEvent: {}
+[7.948229] (-) TimerEvent: {}
+[8.051319] (-) TimerEvent: {}
+[8.155614] (-) TimerEvent: {}
+[8.258246] (-) TimerEvent: {}
+[8.372253] (-) TimerEvent: {}
+[8.478434] (-) TimerEvent: {}
+[8.580294] (-) TimerEvent: {}
+[8.683340] (-) TimerEvent: {}
+[8.785303] (-) TimerEvent: {}
+[8.888446] (-) TimerEvent: {}
+[8.992251] (-) TimerEvent: {}
+[9.095234] (-) TimerEvent: {}
+[9.199313] (-) TimerEvent: {}
+[9.303506] (-) TimerEvent: {}
+[9.407437] (-) TimerEvent: {}
+[9.509236] (-) TimerEvent: {}
+[9.612299] (-) TimerEvent: {}
+[9.716372] (-) TimerEvent: {}
+[9.819456] (-) TimerEvent: {}
+[9.920860] (-) TimerEvent: {}
+[10.025804] (-) TimerEvent: {}
+[10.151293] (-) TimerEvent: {}
+[10.253517] (-) TimerEvent: {}
+[10.356213] (-) TimerEvent: {}
+[10.470283] (-) TimerEvent: {}
+[10.575344] (-) TimerEvent: {}
+[10.678890] (-) TimerEvent: {}
+[10.781643] (-) TimerEvent: {}
+[10.884549] (-) TimerEvent: {}
+[10.989516] (-) TimerEvent: {}
+[11.093292] (-) TimerEvent: {}
+[11.211706] (-) TimerEvent: {}
+[11.320208] (-) TimerEvent: {}
+[11.425511] (-) TimerEvent: {}
+[11.527281] (-) TimerEvent: {}
+[11.631641] (-) TimerEvent: {}
+[11.736484] (-) TimerEvent: {}
+[11.839517] (-) TimerEvent: {}
+[11.943219] (-) TimerEvent: {}
+[12.048356] (-) TimerEvent: {}
+[12.152344] (-) TimerEvent: {}
+[12.255288] (-) TimerEvent: {}
+[12.359680] (-) TimerEvent: {}
+[12.463440] (-) TimerEvent: {}
+[12.579573] (-) TimerEvent: {}
+[12.685327] (-) TimerEvent: {}
+[12.795318] (-) TimerEvent: {}
+[12.900316] (-) TimerEvent: {}
+[13.013291] (-) TimerEvent: {}
+[13.116260] (-) TimerEvent: {}
+[13.220429] (-) TimerEvent: {}
+[13.323468] (-) TimerEvent: {}
+[13.427252] (-) TimerEvent: {}
+[13.531237] (-) TimerEvent: {}
+[13.634265] (-) TimerEvent: {}
+[13.738337] (-) TimerEvent: {}
+[13.841357] (-) TimerEvent: {}
+[13.954503] (-) TimerEvent: {}
+[14.060458] (-) TimerEvent: {}
+[14.174277] (-) TimerEvent: {}
+[14.285647] (-) TimerEvent: {}
+[14.394473] (-) TimerEvent: {}
+[14.495457] (-) TimerEvent: {}
+[14.603536] (-) TimerEvent: {}
+[14.713321] (-) TimerEvent: {}
+[14.822947] (-) TimerEvent: {}
+[14.930421] (-) TimerEvent: {}
+[15.046248] (-) TimerEvent: {}
+[15.148579] (-) TimerEvent: {}
+[15.252734] (-) TimerEvent: {}
+[15.356246] (-) TimerEvent: {}
+[15.458783] (-) TimerEvent: {}
+[15.573377] (-) TimerEvent: {}
+[15.675839] (-) TimerEvent: {}
+[15.782338] (-) TimerEvent: {}
+[15.883252] (-) TimerEvent: {}
+[15.987240] (-) TimerEvent: {}
+[16.090125] (-) TimerEvent: {}
+[16.205317] (-) TimerEvent: {}
+[16.328540] (-) TimerEvent: {}
+[16.432249] (-) TimerEvent: {}
+[16.534313] (-) TimerEvent: {}
+[16.637484] (-) TimerEvent: {}
+[16.742687] (-) TimerEvent: {}
+[16.846315] (-) TimerEvent: {}
+[16.950335] (-) TimerEvent: {}
+[17.055294] (-) TimerEvent: {}
+[17.159331] (-) TimerEvent: {}
+[17.263331] (-) TimerEvent: {}
+[17.368384] (-) TimerEvent: {}
+[17.469796] (-) TimerEvent: {}
+[17.574244] (-) TimerEvent: {}
+[17.675642] (-) TimerEvent: {}
+[17.791381] (-) TimerEvent: {}
+[17.896223] (-) TimerEvent: {}
+[17.998200] (-) TimerEvent: {}
+[18.113413] (-) TimerEvent: {}
+[18.216453] (-) TimerEvent: {}
+[18.318259] (-) TimerEvent: {}
+[18.422322] (-) TimerEvent: {}
+[18.525302] (-) TimerEvent: {}
+[18.638744] (-) TimerEvent: {}
+[18.741370] (-) TimerEvent: {}
+[18.765993] (joyserv) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joy_service\x1b[0m\n'}
+[18.846272] (-) TimerEvent: {}
+[18.950247] (-) TimerEvent: {}
+[19.053667] (-) TimerEvent: {}
+[19.158212] (-) TimerEvent: {}
+[19.224532] (joyserv) StdoutLine: {'line': b'[100%] Built target joy_service\n'}
+[19.246432] (joyserv) CommandEnded: {'returncode': 0}
+[19.247285] (joyserv) JobProgress: {'identifier': 'joyserv', 'progress': 'install'}
+[19.259219] (-) TimerEvent: {}
+[19.294821] (joyserv) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yama/ros2_ws/build/joyserv'], 'cwd': '/home/yama/ros2_ws/build/joyserv', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yama', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yama', 'OLDPWD': '/home/yama/ros2_ws/src/joyserv', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2243', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yama', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yama-VirtualBox:@/tmp/.ICE-unix/2207,unix/yama-VirtualBox:/tmp/.ICE-unix/2207', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e4694322_5e11_4628_88e9_36d11e501082', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.90', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yama/ros2_ws/build/joyserv', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[19.342545] (joyserv) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.343129] (joyserv) StdoutLine: {'line': b'-- Installing: /home/yama/ros2_ws/install/joyserv/lib/joyserv/joy_service\n'}
+[19.349585] (joyserv) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yama/ros2_ws/install/joyserv/lib/joyserv/joy_service" to ""\n'}
+[19.350271] (joyserv) StdoutLine: {'line': b'-- Installing: /home/yama/ros2_ws/install/joyserv/share/ament_index/resource_index/package_run_dependencies/joyserv\n'}
+[19.351108] (joyserv) StdoutLine: {'line': b'-- Installing: /home/yama/ros2_ws/install/joyserv/share/ament_index/resource_index/parent_prefix_path/joyserv\n'}
+[19.351341] (joyserv) StdoutLine: {'line': b'-- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/environment/ament_prefix_path.sh\n'}
+[19.351705] (joyserv) StdoutLine: {'line': b'-- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/environment/ament_prefix_path.dsv\n'}
+[19.352193] (joyserv) StdoutLine: {'line': b'-- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/environment/path.sh\n'}
+[19.352349] (joyserv) StdoutLine: {'line': b'-- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/environment/path.dsv\n'}
+[19.352649] (joyserv) StdoutLine: {'line': b'-- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/local_setup.bash\n'}
+[19.352957] (joyserv) StdoutLine: {'line': b'-- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/local_setup.sh\n'}
+[19.353529] (joyserv) StdoutLine: {'line': b'-- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/local_setup.zsh\n'}
+[19.353693] (joyserv) StdoutLine: {'line': b'-- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/local_setup.dsv\n'}
+[19.353996] (joyserv) StdoutLine: {'line': b'-- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/package.dsv\n'}
+[19.354376] (joyserv) StdoutLine: {'line': b'-- Installing: /home/yama/ros2_ws/install/joyserv/share/ament_index/resource_index/packages/joyserv\n'}
+[19.358758] (joyserv) StdoutLine: {'line': b'-- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/cmake/joyservConfig.cmake\n'}
+[19.359467] (joyserv) StdoutLine: {'line': b'-- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/cmake/joyservConfig-version.cmake\n'}
+[19.359645] (-) TimerEvent: {}
+[19.362230] (joyserv) StdoutLine: {'line': b'-- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/package.xml\n'}
+[19.363138] (joyserv) CommandEnded: {'returncode': 0}
+[19.439017] (joyserv) JobEnded: {'identifier': 'joyserv', 'rc': 0}
+[19.440254] (-) EventReactorShutdown: {}

@@ -1,0 +1,498 @@
+[0.038s] Invoking command in '/home/yama/ros2_ws/build/exmple_dynamixel_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yama/ros2_ws/build/exmple_dynamixel_cpp -- -j1 -l1
+[0.184s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_controller.dir/src/dynamixel_controller.cpp.o[0m
+[0.262s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:1:12:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+[0.263s]     1 | ros2 jazzy [01;31m[K#[m[Kinclude "rclcpp/rclcpp.hpp"
+[0.263s]       |            [01;31m[K^[m[K
+[0.357s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kros2[m[K’ does not name a type
+[0.357s]     1 | [01;31m[Kros2[m[K jazzy #include "rclcpp/rclcpp.hpp"
+[0.357s]       | [01;31m[K^~~~[m[K
+[0.358s] In file included from [01m[K/usr/include/stdio.h:44[m[K,
+[0.358s]                  from [01m[K/opt/ros/jazzy/include/dynamixel_workbench_toolbox/dynamixel_tool.h:23[m[K,
+[0.358s]                  from [01m[K/opt/ros/jazzy/include/dynamixel_workbench_toolbox/dynamixel_driver.h:22[m[K,
+[0.358s]                  from [01m[K/opt/ros/jazzy/include/dynamixel_workbench_toolbox/dynamixel_workbench.h:22[m[K,
+[0.358s]                  from [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:2[m[K:
+[0.358s] [01m[K/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:95:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.358s]    95 |   [01;31m[Ksize_t[m[K __pad5;
+[0.359s]       |   [01;31m[K^~~~~~[m[K
+[0.359s] [01m[K/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.359s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.359s]     1 | /* Copyright (C) 1991-2024 Free Software Foundation, Inc.
+[0.359s] [01m[K/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:98:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ was not declared in this scope
+[0.360s]    98 |   char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof ([01;31m[Ksize_t[m[K)];
+[0.360s]       |                                                                   [01;31m[K^~~~~~[m[K
+[0.360s] [01m[K/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:98:67:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.360s] In file included from [01m[K/usr/include/stdio.h:47[m[K:
+[0.360s] [01m[K/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:28:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.360s]    28 |                                           [01;31m[Ksize_t[m[K __nbytes);
+[0.360s]       |                                           [01;31m[K^~~~~~[m[K
+[0.360s] [01m[K/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:37:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.360s]    37 |                                            [01;31m[Ksize_t[m[K __nbytes);
+[0.360s]       |                                            [01;31m[K^~~~~~[m[K
+[0.361s] [01m[K/usr/include/stdio.h:314:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.361s]   314 | extern FILE *fmemopen (void *__s, [01;31m[Ksize_t[m[K __len, const char *__modes)
+[0.361s]       |                                   [01;31m[K^~~~~~[m[K
+[0.361s] [01m[K/usr/include/stdio.h:320:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.361s]   320 | extern FILE *open_memstream (char **__bufloc, [01;31m[Ksize_t[m[K *__sizeloc) __THROW
+[0.361s]       |                                               [01;31m[K^~~~~~[m[K
+[0.362s] [01m[K/usr/include/stdio.h:340:34:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.362s]   340 |                     int __modes, [01;31m[Ksize_t[m[K __n) __THROW __nonnull ((1));
+[0.362s]       |                                  [01;31m[K^~~~~~[m[K
+[0.362s] [01m[K/usr/include/stdio.h:346:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.362s]   346 |                        [01;31m[Ksize_t[m[K __size) __THROW __nonnull ((1));
+[0.362s]       |                        [01;31m[K^~~~~~[m[K
+[0.362s] [01m[K/usr/include/stdio.h:385:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.366s]   385 | extern int snprintf (char *__restrict __s, [01;31m[Ksize_t[m[K __maxlen,
+[0.366s]       |                                            [01;31m[K^~~~~~[m[K
+[0.366s] [01m[K/usr/include/stdio.h:389:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.366s]   389 | extern int vsnprintf (char *__restrict __s, [01;31m[Ksize_t[m[K __maxlen,
+[0.366s]       |                                             [01;31m[K^~~~~~[m[K
+[0.366s] [01m[K/usr/include/stdio.h:695:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.366s]   695 |                              [01;31m[Ksize_t[m[K *__restrict __n, int __delimiter,
+[0.366s]       |                              [01;31m[K^~~~~~[m[K
+[0.366s] [01m[K/usr/include/stdio.h:698:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.366s]   698 |                            [01;31m[Ksize_t[m[K *__restrict __n, int __delimiter,
+[0.366s]       |                            [01;31m[K^~~~~~[m[K
+[0.366s] [01m[K/usr/include/stdio.h:708:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.366s]   708 |                           [01;31m[Ksize_t[m[K *__restrict __n,
+[0.366s]       |                           [01;31m[K^~~~~~[m[K
+[0.366s] [01m[K/usr/include/stdio.h:738:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.366s]   738 | extern [01;31m[Ksize_t[m[K fread (void *__restrict __ptr, size_t __size,
+[0.367s]       |        [01;31m[K^~~~~~[m[K
+[0.367s] [01m[K/usr/include/stdio.h:438:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.367s]   437 | #include <bits/floatn.h>
+[0.367s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.367s]   438 | #if !__GLIBC_USE (DEPRECATED_SCANF) && !defined __LDBL_COMPAT \
+[0.367s] [01m[K/usr/include/stdio.h:745:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.367s]   745 | extern [01;31m[Ksize_t[m[K fwrite (const void *__restrict __ptr, size_t __size,
+[0.367s]       |        [01;31m[K^~~~~~[m[K
+[0.367s] [01m[K/usr/include/stdio.h:745:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.367s] [01m[K/usr/include/stdio.h:766:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.367s]   766 | extern [01;31m[Ksize_t[m[K fread_unlocked (void *__restrict __ptr, size_t __size,
+[0.367s]       |        [01;31m[K^~~~~~[m[K
+[0.367s] [01m[K/usr/include/stdio.h:766:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.367s] [01m[K/usr/include/stdio.h:769:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.367s]   769 | extern [01;31m[Ksize_t[m[K fwrite_unlocked (const void *__restrict __ptr, size_t __size,
+[0.367s]       |        [01;31m[K^~~~~~[m[K
+[0.367s] [01m[K/usr/include/stdio.h:769:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.367s] In file included from [01m[K/opt/ros/jazzy/include/dynamixel_workbench_toolbox/dynamixel_driver.h:28[m[K:
+[0.368s] [01m[K/usr/include/unistd.h:371:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.368s]   371 | extern ssize_t read (int __fd, void *__buf, [01;31m[Ksize_t[m[K __nbytes) __wur
+[0.368s]       |                                             [01;31m[K^~~~~~[m[K
+[0.368s] [01m[K/usr/include/unistd.h:378:52:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.368s]   378 | extern ssize_t write (int __fd, const void *__buf, [01;31m[Ksize_t[m[K __n) __wur
+[0.368s]       |                                                    [01;31m[K^~~~~~[m[K
+[0.368s] [01m[K/usr/include/unistd.h:389:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.368s]   389 | extern ssize_t pread (int __fd, void *__buf, [01;31m[Ksize_t[m[K __nbytes,
+[0.368s]       |                                              [01;31m[K^~~~~~[m[K
+[0.368s] [01m[K/usr/include/unistd.h:398:53:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.368s]   398 | extern ssize_t pwrite (int __fd, const void *__buf, [01;31m[Ksize_t[m[K __n,
+[0.368s]       |                                                     [01;31m[K^~~~~~[m[K
+[0.368s] [01m[K/usr/include/unistd.h:422:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.368s]   422 | extern ssize_t pread64 (int __fd, void *__buf, [01;31m[Ksize_t[m[K __nbytes,
+[0.368s]       |                                                [01;31m[K^~~~~~[m[K
+[0.368s] [01m[K/usr/include/unistd.h:427:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.368s]   427 | extern ssize_t pwrite64 (int __fd, const void *__buf, [01;31m[Ksize_t[m[K __n,
+[0.368s]       |                                                       [01;31m[K^~~~~~[m[K
+[0.375s] [01m[K/usr/include/unistd.h:531:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.375s]   531 | extern char *getcwd (char *__buf, [01;31m[Ksize_t[m[K __size) __THROW __wur;
+[0.375s]       |                                   [01;31m[K^~~~~~[m[K
+[0.375s] [01m[K/usr/include/unistd.h:644:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.375s]   644 | extern [01;31m[Ksize_t[m[K confstr (int __name, char *__buf, size_t __len) __THROW
+[0.375s]       |        [01;31m[K^~~~~~[m[K
+[0.375s] [01m[K/usr/include/unistd.h:631:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.375s]   630 | #include <bits/confname.h>
+[0.375s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.375s]   631 | 
+[0.375s] [01m[K/usr/include/unistd.h:803:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.375s]   803 | extern int ttyname_r (int __fd, char *__buf, [01;31m[Ksize_t[m[K __buflen)
+[0.375s]       |                                              [01;31m[K^~~~~~[m[K
+[0.375s] [01m[K/usr/include/unistd.h:839:50:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.375s]   839 |                          char *__restrict __buf, [01;31m[Ksize_t[m[K __len)
+[0.375s]       |                                                  [01;31m[K^~~~~~[m[K
+[0.375s] [01m[K/usr/include/unistd.h:852:52:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.375s]   852 |                            char *__restrict __buf, [01;31m[Ksize_t[m[K __len)
+[0.375s]       |                                                    [01;31m[K^~~~~~[m[K
+[0.375s] [01m[K/usr/include/unistd.h:889:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.375s]   889 | extern int getlogin_r (char *__name, [01;31m[Ksize_t[m[K __name_len) __nonnull ((1))
+[0.375s]       |                                      [01;31m[K^~~~~~[m[K
+[0.375s] [01m[K/usr/include/unistd.h:911:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.375s]   911 | extern int gethostname (char *__name, [01;31m[Ksize_t[m[K __len) __THROW __nonnull ((1))
+[0.375s]       |                                       [01;31m[K^~~~~~[m[K
+[0.375s] [01m[K/usr/include/unistd.h:919:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.376s]   919 | extern int sethostname (const char *__name, [01;31m[Ksize_t[m[K __len)
+[0.376s]       |                                             [01;31m[K^~~~~~[m[K
+[0.376s] [01m[K/usr/include/unistd.h:930:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.376s]   930 | extern int getdomainname (char *__name, [01;31m[Ksize_t[m[K __len)
+[0.376s]       |                                         [01;31m[K^~~~~~[m[K
+[0.376s] [01m[K/usr/include/unistd.h:933:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.376s]   933 | extern int setdomainname (const char *__name, [01;31m[Ksize_t[m[K __len)
+[0.376s]       |                                               [01;31m[K^~~~~~[m[K
+[0.376s] [01m[K/usr/include/unistd.h:950:57:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.376s]   950 | extern int profil (unsigned short int *__sample_buffer, [01;31m[Ksize_t[m[K __size,
+[0.376s]       |                                                         [01;31m[K^~~~~~[m[K
+[0.376s] [01m[K/usr/include/unistd.h:951:20:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.376s]   951 |                    [01;31m[Ksize_t[m[K __offset, unsigned int __scale)
+[0.376s]       |                    [01;31m[K^~~~~~[m[K
+[0.376s] [01m[K/usr/include/unistd.h:1144:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.376s]  1144 |                          [01;31m[Ksize_t[m[K __length, unsigned int __flags);
+[0.376s]       |                          [01;31m[K^~~~~~[m[K
+[0.376s] [01m[K/usr/include/unistd.h:1201:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.376s]  1201 | int getentropy (void *__buffer, [01;31m[Ksize_t[m[K __length) __wur
+[0.376s]       |                                 [01;31m[K^~~~~~[m[K
+[0.553s] In file included from [01m[K/usr/include/c++/13/cwchar:44[m[K,
+[0.553s]                  from [01m[K/usr/include/c++/13/bits/postypes.h:40[m[K,
+[0.553s]                  from [01m[K/usr/include/c++/13/iosfwd:42[m[K,
+[0.553s]                  from [01m[K/usr/include/c++/13/bits/std_thread.h:38[m[K,
+[0.553s]                  from [01m[K/usr/include/c++/13/thread:45[m[K,
+[0.553s]                  from [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:3[m[K:
+[0.553s] [01m[K/usr/include/wchar.h:104:59:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.553s]   104 |                          const wchar_t *__restrict __src, [01;31m[Ksize_t[m[K __n)
+[0.553s]       |                                                           [01;31m[K^~~~~~[m[K
+[0.553s] [01m[K/usr/include/wchar.h:109:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.553s]   109 | extern [01;31m[Ksize_t[m[K wcslcpy (wchar_t *__restrict __dest,
+[0.554s]       |        [01;31m[K^~~~~~[m[K
+[0.554s] [01m[K/usr/include/wchar.h:54:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.554s]    53 | #include <bits/types/mbstate_t.h>
+[0.554s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.554s]    54 | #include <bits/types/__FILE.h>
+[0.554s] [01m[K/usr/include/wchar.h:115:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.554s]   115 | extern [01;31m[Ksize_t[m[K wcslcat (wchar_t *__restrict __dest,
+[0.554s]       |        [01;31m[K^~~~~~[m[K
+[0.554s] [01m[K/usr/include/wchar.h:115:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.554s] [01m[K/usr/include/wchar.h:126:59:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.554s]   126 |                          const wchar_t *__restrict __src, [01;31m[Ksize_t[m[K __n)
+[0.554s]       |                                                           [01;31m[K^~~~~~[m[K
+[0.554s] [01m[K/usr/include/wchar.h:133:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.555s]   133 | extern int wcsncmp (const wchar_t *__s1, const wchar_t *__s2, [01;31m[Ksize_t[m[K __n)
+[0.555s]       |                                                               [01;31m[K^~~~~~[m[K
+[0.555s] [01m[K/usr/include/wchar.h:142:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.555s]   142 |                         [01;31m[Ksize_t[m[K __n) __THROW;
+[0.555s]       |                         [01;31m[K^~~~~~[m[K
+[0.555s] [01m[K/usr/include/wchar.h:147:26:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.555s]   147 |                          [01;31m[Klocale_t[m[K __loc) __THROW;
+[0.555s]       |                          [01;31m[K^~~~~~~~[m[K
+[0.555s] [01m[K/usr/include/wchar.h:150:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.555s]   150 |                           [01;31m[Ksize_t[m[K __n, locale_t __loc) __THROW;
+[0.555s]       |                           [01;31m[K^~~~~~[m[K
+[0.555s] [01m[K/usr/include/wchar.h:150:39:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.555s]   150 |                           size_t __n, [01;31m[Klocale_t[m[K __loc) __THROW;
+[0.555s]       |                                       [01;31m[K^~~~~~~~[m[K
+[0.556s] [01m[K/usr/include/wchar.h:159:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.556s]   159 | extern [01;31m[Ksize_t[m[K wcsxfrm (wchar_t *__restrict __s1,
+[0.556s]       |        [01;31m[K^~~~~~[m[K
+[0.556s] [01m[K/usr/include/wchar.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.556s] [01m[K/usr/include/wchar.h:169:23:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.556s]   169 |                       [01;31m[Klocale_t[m[K __loc) __THROW;
+[0.556s]       |                       [01;31m[K^~~~~~~~[m[K
+[0.556s] [01m[K/usr/include/wchar.h:174:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.556s]   174 | extern [01;31m[Ksize_t[m[K wcsxfrm_l (wchar_t *__s1, const wchar_t *__s2,
+[0.556s]       |        [01;31m[K^~~~~~[m[K
+[0.556s] [01m[K/usr/include/wchar.h:174:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.557s] [01m[K/usr/include/wchar.h:212:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.557s]   212 | extern [01;31m[Ksize_t[m[K wcscspn (const wchar_t *__wcs, const wchar_t *__reject)
+[0.557s]       |        [01;31m[K^~~~~~[m[K
+[0.557s] [01m[K/usr/include/wchar.h:212:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.557s] [01m[K/usr/include/wchar.h:216:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.557s]   216 | extern [01;31m[Ksize_t[m[K wcsspn (const wchar_t *__wcs, const wchar_t *__accept)
+[0.557s]       |        [01;31m[K^~~~~~[m[K
+[0.557s] [01m[K/usr/include/wchar.h:216:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.557s] [01m[K/usr/include/wchar.h:247:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.557s]   247 | extern [01;31m[Ksize_t[m[K wcslen (const wchar_t *__s) __THROW __attribute_pure__;
+[0.557s]       |        [01;31m[K^~~~~~[m[K
+[0.557s] [01m[K/usr/include/wchar.h:247:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.557s] [01m[K/usr/include/wchar.h:265:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.557s]   265 | extern [01;31m[Ksize_t[m[K wcsnlen (const wchar_t *__s, size_t __maxlen)
+[0.557s]       |        [01;31m[K^~~~~~[m[K
+[0.557s] [01m[K/usr/include/wchar.h:265:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.557s] [01m[K/usr/include/wchar.h:272:59:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.557s]   272 | extern "C++" wchar_t *wmemchr (wchar_t *__s, wchar_t __c, [01;31m[Ksize_t[m[K __n)
+[0.557s]       |                                                           [01;31m[K^~~~~~[m[K
+[0.557s] [01m[K/usr/include/wchar.h:275:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.557s]   275 |                                      [01;31m[Ksize_t[m[K __n)
+[0.557s]       |                                      [01;31m[K^~~~~~[m[K
+[0.558s] [01m[K/usr/include/wchar.h:283:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.558s]   283 | extern int wmemcmp (const wchar_t *__s1, const wchar_t *__s2, [01;31m[Ksize_t[m[K __n)
+[0.558s]       |                                                               [01;31m[K^~~~~~[m[K
+[0.558s] [01m[K/usr/include/wchar.h:288:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.558s]   288 |                          const wchar_t *__restrict __s2, [01;31m[Ksize_t[m[K __n) __THROW;
+[0.558s]       |                                                          [01;31m[K^~~~~~[m[K
+[0.558s] [01m[K/usr/include/wchar.h:292:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.558s]   292 | extern wchar_t *wmemmove (wchar_t *__s1, const wchar_t *__s2, [01;31m[Ksize_t[m[K __n)
+[0.558s]       |                                                               [01;31m[K^~~~~~[m[K
+[0.560s] [01m[K/usr/include/wchar.h:296:53:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.560s]   296 | extern wchar_t *wmemset (wchar_t *__s, wchar_t __c, [01;31m[Ksize_t[m[K __n) __THROW;
+[0.560s]       |                                                     [01;31m[K^~~~~~[m[K
+[0.560s] [01m[K/usr/include/wchar.h:302:59:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.560s]   302 |                           const wchar_t *__restrict __s2, [01;31m[Ksize_t[m[K __n)
+[0.560s]       |                                                           [01;31m[K^~~~~~[m[K
+[0.560s] [01m[K/usr/include/wchar.h:321:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.560s]   321 | extern [01;31m[Ksize_t[m[K mbrtowc (wchar_t *__restrict __pwc,
+[0.560s]       |        [01;31m[K^~~~~~[m[K
+[0.560s] [01m[K/usr/include/wchar.h:321:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.560s] [01m[K/usr/include/wchar.h:326:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.560s]   326 | extern [01;31m[Ksize_t[m[K wcrtomb (char *__restrict __s, wchar_t __wc,
+[0.560s]       |        [01;31m[K^~~~~~[m[K
+[0.560s] [01m[K/usr/include/wchar.h:326:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.560s] [01m[K/usr/include/wchar.h:330:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.560s]   330 | extern [01;31m[Ksize_t[m[K __mbrlen (const char *__restrict __s, size_t __n,
+[0.560s]       |        [01;31m[K^~~~~~[m[K
+[0.560s] [01m[K/usr/include/wchar.h:330:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.560s] [01m[K/usr/include/wchar.h:332:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.560s]   332 | extern [01;31m[Ksize_t[m[K mbrlen (const char *__restrict __s, size_t __n,
+[0.560s]       |        [01;31m[K^~~~~~[m[K
+[0.560s] [01m[K/usr/include/wchar.h:332:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.560s] [01m[K/usr/include/wchar.h:362:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.560s]   362 | extern [01;31m[Ksize_t[m[K mbsrtowcs (wchar_t *__restrict __dst,
+[0.560s]       |        [01;31m[K^~~~~~[m[K
+[0.560s] [01m[K/usr/include/wchar.h:362:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.560s] [01m[K/usr/include/wchar.h:368:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.560s]   368 | extern [01;31m[Ksize_t[m[K wcsrtombs (char *__restrict __dst,
+[0.560s]       |        [01;31m[K^~~~~~[m[K
+[0.568s] [01m[K/usr/include/wchar.h:368:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.568s] [01m[K/usr/include/wchar.h:376:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.568s]   376 | extern [01;31m[Ksize_t[m[K mbsnrtowcs (wchar_t *__restrict __dst,
+[0.569s]       |        [01;31m[K^~~~~~[m[K
+[0.569s] [01m[K/usr/include/wchar.h:376:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.569s] [01m[K/usr/include/wchar.h:382:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.569s]   382 | extern [01;31m[Ksize_t[m[K wcsnrtombs (char *__restrict __dst,
+[0.569s]       |        [01;31m[K^~~~~~[m[K
+[0.569s] [01m[K/usr/include/wchar.h:382:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.569s] [01m[K/usr/include/wchar.h:396:42:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.569s]   396 | extern int wcswidth (const wchar_t *__s, [01;31m[Ksize_t[m[K __n) __THROW;
+[0.569s]       |                                          [01;31m[K^~~~~~[m[K
+[0.569s] [01m[K/usr/include/wchar.h:563:27:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.569s]   563 |                           [01;31m[Klocale_t[m[K __loc) __THROW;
+[0.569s]       |                           [01;31m[K^~~~~~~~[m[K
+[0.569s] [01m[K/usr/include/wchar.h:567:49:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.569s]   567 |                                     int __base, [01;31m[Klocale_t[m[K __loc) __THROW;
+[0.569s]       |                                                 [01;31m[K^~~~~~~~[m[K
+[0.569s] [01m[K/usr/include/wchar.h:572:45:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.569s]   572 |                                 int __base, [01;31m[Klocale_t[m[K __loc) __THROW;
+[0.569s]       |                                             [01;31m[K^~~~~~~~[m[K
+[0.569s] [01m[K/usr/include/wchar.h:577:55:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.569s]   577 |                                           int __base, [01;31m[Klocale_t[m[K __loc)
+[0.569s]       |                                                       [01;31m[K^~~~~~~~[m[K
+[0.569s] In file included from [01m[K/usr/include/features.h:502[m[K,
+[0.569s]                  from [01m[K/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33[m[K,
+[0.569s]                  from [01m[K/usr/include/string.h:26[m[K,
+[0.569s]                  from [01m[K/opt/ros/jazzy/include/dynamixel_workbench_toolbox/dynamixel_tool.h:22[m[K:
+[0.569s] [01m[K/usr/include/wchar.h:584:17:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.569s]   584 | extern long int [01;31m[K__REDIRECT_NTH[m[K (wcstol_l, (const wchar_t *__restrict __nptr,
+[0.569s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.569s] [01m[K/usr/include/wchar.h:588:26:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.569s]   588 | extern unsigned long int [01;31m[K__REDIRECT_NTH[m[K (wcstoul_l,
+[0.569s]       |                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.570s] [01m[K/usr/include/wchar.h:594:22:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.570s]   594 | extern long long int [01;31m[K__REDIRECT_NTH[m[K (wcstoll_l,
+[0.570s]       |                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.570s] [01m[K/usr/include/wchar.h:600:31:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.570s]   600 | extern unsigned long long int [01;31m[K__REDIRECT_NTH[m[K (wcstoull_l,
+[0.570s]       |                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.570s] [01m[K/usr/include/wchar.h:631:56:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.570s]   631 |                         wchar_t **__restrict __endptr, [01;31m[Klocale_t[m[K __loc)
+[0.570s]       |                                                        [01;31m[K^~~~~~~~[m[K
+[0.570s] [01m[K/usr/include/wchar.h:635:55:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.570s]   635 |                        wchar_t **__restrict __endptr, [01;31m[Klocale_t[m[K __loc)
+[0.570s]       |                                                       [01;31m[K^~~~~~~~[m[K
+[0.570s] [01m[K/usr/include/wchar.h:640:31:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.570s]   640 |                               [01;31m[Klocale_t[m[K __loc) __THROW;
+[0.570s]       |                               [01;31m[K^~~~~~~~[m[K
+[0.570s] [01m[K/usr/include/wchar.h:651:29:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.570s]   651 |                             [01;31m[Klocale_t[m[K __loc) __THROW;
+[0.570s]       |                             [01;31m[K^~~~~~~~[m[K
+[0.570s] [01m[K/usr/include/wchar.h:657:29:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.570s]   657 |                             [01;31m[Klocale_t[m[K __loc) __THROW;
+[0.570s]       |                             [01;31m[K^~~~~~~~[m[K
+[0.570s] [01m[K/usr/include/wchar.h:663:31:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.570s]   663 |                               [01;31m[Klocale_t[m[K __loc) __THROW;
+[0.570s]       |                               [01;31m[K^~~~~~~~[m[K
+[0.570s] [01m[K/usr/include/wchar.h:669:31:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.570s]   669 |                               [01;31m[Klocale_t[m[K __loc) __THROW;
+[0.570s]       |                               [01;31m[K^~~~~~~~[m[K
+[0.570s] [01m[K/usr/include/wchar.h:675:31:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.570s]   675 |                               [01;31m[Klocale_t[m[K __loc) __THROW;
+[0.570s]       |                               [01;31m[K^~~~~~~~[m[K
+[0.571s] [01m[K/usr/include/wchar.h:695:59:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.571s]   695 |                          const wchar_t *__restrict __src, [01;31m[Ksize_t[m[K __n)
+[0.571s]       |                                                           [01;31m[K^~~~~~[m[K
+[0.571s] [01m[K/usr/include/wchar.h:718:53:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.571s]   718 | extern __FILE *open_wmemstream (wchar_t **__bufloc, [01;31m[Ksize_t[m[K *__sizeloc) __THROW
+[0.571s]       |                                                     [01;31m[K^~~~~~[m[K
+[0.573s] [01m[K/usr/include/wchar.h:742:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.573s]   742 | extern int swprintf (wchar_t *__restrict __s, [01;31m[Ksize_t[m[K __n,
+[0.573s]       |                                               [01;31m[K^~~~~~[m[K
+[0.573s] [01m[K/usr/include/wchar.h:763:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.573s]   763 | extern int vswprintf (wchar_t *__restrict __s, [01;31m[Ksize_t[m[K __n,
+[0.573s]       |                                                [01;31m[K^~~~~~[m[K
+[0.573s] [01m[K/usr/include/wchar.h:1043:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.573s]  1043 | extern [01;31m[Ksize_t[m[K wcsftime (wchar_t *__restrict __s, size_t __maxsize,
+[0.573s]       |        [01;31m[K^~~~~~[m[K
+[0.573s] [01m[K/usr/include/wchar.h:1043:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.574s] [01m[K/usr/include/wchar.h:1050:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.574s]  1050 | extern [01;31m[Ksize_t[m[K wcsftime_l (wchar_t *__restrict __s, size_t __maxsize,
+[0.574s]       |        [01;31m[K^~~~~~[m[K
+[0.574s] [01m[K/usr/include/wchar.h:1050:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.574s] [01m[K/usr/include/c++/13/cwchar:153:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmbrlen[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.574s]   153 |   using ::[01;31m[Kmbrlen[m[K;
+[0.574s]       |           [01;31m[K^~~~~~[m[K
+[0.574s] [01m[K/usr/include/c++/13/cwchar:154:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmbrtowc[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.574s]   154 |   using ::[01;31m[Kmbrtowc[m[K;
+[0.574s]       |           [01;31m[K^~~~~~~[m[K
+[0.574s] [01m[K/usr/include/c++/13/cwchar:156:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmbsrtowcs[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.574s]   156 |   using ::[01;31m[Kmbsrtowcs[m[K;
+[0.574s]       |           [01;31m[K^~~~~~~~~[m[K
+[0.574s] [01m[K/usr/include/c++/13/cwchar:178:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kwcrtomb[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.574s]   178 |   using ::[01;31m[Kwcrtomb[m[K;
+[0.574s]       |           [01;31m[K^~~~~~~[m[K
+[0.574s] [01m[K/usr/include/c++/13/cwchar:183:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kwcscspn[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.574s]   183 |   using ::[01;31m[Kwcscspn[m[K;
+[0.574s]       |           [01;31m[K^~~~~~~[m[K
+[0.574s] [01m[K/usr/include/c++/13/cwchar:184:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kwcsftime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.574s]   184 |   using ::[01;31m[Kwcsftime[m[K;
+[0.574s]       |           [01;31m[K^~~~~~~~[m[K
+[0.574s] [01m[K/usr/include/c++/13/cwchar:185:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kwcslen[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.574s]   185 |   using ::[01;31m[Kwcslen[m[K;
+[0.575s]       |           [01;31m[K^~~~~~[m[K
+[0.575s] [01m[K/usr/include/c++/13/cwchar:189:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kwcsrtombs[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.575s]   189 |   using ::[01;31m[Kwcsrtombs[m[K;
+[0.575s]       |           [01;31m[K^~~~~~~~~[m[K
+[0.575s] [01m[K/usr/include/c++/13/cwchar:190:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kwcsspn[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.575s]   190 |   using ::[01;31m[Kwcsspn[m[K;
+[0.575s]       |           [01;31m[K^~~~~~[m[K
+[0.575s] [01m[K/usr/include/c++/13/cwchar:198:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kwcsxfrm[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.575s]   198 |   using ::[01;31m[Kwcsxfrm[m[K;
+[0.575s]       |           [01;31m[K^~~~~~~[m[K
+[0.575s] In file included from [01m[K/usr/include/sched.h:44[m[K,
+[0.575s]                  from [01m[K/usr/include/pthread.h:22[m[K,
+[0.575s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:35[m[K,
+[0.575s]                  from [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:148[m[K,
+[0.575s]                  from [01m[K/usr/include/c++/13/bits/std_thread.h:46[m[K:
+[0.575s] [01m[K/usr/include/x86_64-linux-gnu/bits/cpu-set.h:117:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::size_t[m[K’?
+[0.575s]   117 | extern int __sched_cpucount ([01;31m[Ksize_t[m[K __setsize, const cpu_set_t *__setp)
+[0.575s]       |                              [01;31m[K^~~~~~[m[K
+[0.575s]       |                              [32m[Kstd::size_t[m[K
+[0.575s] In file included from [01m[K/usr/include/c++/13/bits/requires_hosted.h:31[m[K,
+[0.575s]                  from [01m[K/usr/include/c++/13/vector:60[m[K,
+[0.575s]                  from [01m[K/opt/ros/jazzy/include/dynamixel_sdk/packet_handler.h:35[m[K,
+[0.575s]                  from [01m[K/opt/ros/jazzy/include/dynamixel_sdk/group_bulk_read.h:27[m[K,
+[0.575s]                  from [01m[K/opt/ros/jazzy/include/dynamixel_sdk/dynamixel_sdk.h:26[m[K,
+[0.575s]                  from [01m[K/opt/ros/jazzy/include/dynamixel_workbench_toolbox/dynamixel_driver.h:29[m[K:
+[0.575s] [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:308:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::size_t[m[K’ declared here
+[0.575s]   308 |   typedef __SIZE_TYPE__         [01;36m[Ksize_t[m[K;
+[0.575s]       |                                 [01;36m[K^~~~~~[m[K
+[0.575s] [01m[K/usr/include/x86_64-linux-gnu/bits/cpu-set.h:117:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[0.576s]   117 | extern int __sched_cpucount (size_t __setsize, [01;31m[Kconst[m[K cpu_set_t *__setp)
+[0.576s]       |                                                [01;31m[K^~~~~[m[K
+[0.626s] [01m[K/usr/include/x86_64-linux-gnu/bits/cpu-set.h:117:71:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[0.626s]   117 | extern int __sched_cpucount (size_t __setsize, const cpu_set_t *__setp[01;31m[K)[m[K
+[0.626s]       |                                                                       [01;31m[K^[m[K
+[0.635s] [01m[K/usr/include/x86_64-linux-gnu/bits/cpu-set.h:119:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::size_t[m[K’?
+[0.635s]   119 | extern cpu_set_t *__sched_cpualloc ([01;31m[Ksize_t[m[K __count) __THROW __wur;
+[0.635s]       |                                     [01;31m[K^~~~~~[m[K
+[0.635s]       |                                     [32m[Kstd::size_t[m[K
+[0.635s] [01m[K/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:308:33:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::size_t[m[K’ declared here
+[0.635s]   308 |   typedef __SIZE_TYPE__         [01;36m[Ksize_t[m[K;
+[0.635s]       |                                 [01;36m[K^~~~~~[m[K
+[0.636s] [01m[K/usr/include/sched.h:130:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.636s]   130 | extern int sched_setaffinity (__pid_t __pid, [01;31m[Ksize_t[m[K __cpusetsize,
+[0.636s]       |                                              [01;31m[K^~~~~~[m[K
+[0.636s] [01m[K/usr/include/sched.h:134:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.636s]   134 | extern int sched_getaffinity (__pid_t __pid, [01;31m[Ksize_t[m[K __cpusetsize,
+[0.636s]       |                                              [01;31m[K^~~~~~[m[K
+[0.637s] In file included from [01m[K/usr/include/pthread.h:23[m[K:
+[0.637s] [01m[K/usr/include/time.h:100:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.637s]   100 | extern [01;31m[Ksize_t[m[K strftime (char *__restrict __s, size_t __maxsize,
+[0.637s]       |        [01;31m[K^~~~~~[m[K
+[0.637s] [01m[K/usr/include/time.h:49:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.637s]    48 | # include <bits/types/struct_itimerspec.h>
+[0.637s]   +++ |+[32m[K#include <cstddef>[m[K
+[0.637s]    49 | struct sigevent;
+[0.637s] [01m[K/usr/include/time.h:117:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+[0.637s]   117 | extern [01;31m[Ksize_t[m[K strftime_l (char *__restrict __s, size_t __maxsize,
+[0.637s]       |        [01;31m[K^~~~~~[m[K
+[0.638s] [01m[K/usr/include/time.h:117:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[0.638s] [01m[K/usr/include/time.h:126:26:[m[K [01;31m[Kerror: [m[K‘[01m[Klocale_t[m[K’ has not been declared
+[0.639s]   126 |                          [01;31m[Klocale_t[m[K __loc) __THROW;
+[0.639s]       |                          [01;31m[K^~~~~~~~[m[K
+[0.639s] [01m[K/usr/include/pthread.h:304:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.639s]   304 |                                       [01;31m[Ksize_t[m[K *__guardsize)
+[0.639s]       |                                       [01;31m[K^~~~~~[m[K
+[0.639s] [01m[K/usr/include/pthread.h:309:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.639s]   309 |                                       [01;31m[Ksize_t[m[K __guardsize)
+[0.639s]       |                                       [01;31m[K^~~~~~[m[K
+[0.640s] [01m[K/usr/include/pthread.h:367:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.640s]   367 |                                       __attr, [01;31m[Ksize_t[m[K *__restrict __stacksize)
+[0.640s]       |                                               [01;31m[K^~~~~~[m[K
+[0.640s] [01m[K/usr/include/pthread.h:374:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.640s]   374 |                                       [01;31m[Ksize_t[m[K __stacksize)
+[0.640s]       |                                       [01;31m[K^~~~~~[m[K
+[0.640s] [01m[K/usr/include/pthread.h:381:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.640s]   381 |                                   [01;31m[Ksize_t[m[K *__restrict __stacksize)
+[0.640s]       |                                   [01;31m[K^~~~~~[m[K
+[0.640s] [01m[K/usr/include/pthread.h:388:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.641s]   388 |                                   [01;31m[Ksize_t[m[K __stacksize) __THROW __nonnull ((1));
+[0.641s]       |                                   [01;31m[K^~~~~~[m[K
+[0.641s] [01m[K/usr/include/pthread.h:395:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.641s]   395 |                                         [01;31m[Ksize_t[m[K __cpusetsize,
+[0.641s]       |                                         [01;31m[K^~~~~~[m[K
+[0.641s] [01m[K/usr/include/pthread.h:402:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.641s]   402 |                                         [01;31m[Ksize_t[m[K __cpusetsize,
+[0.641s]       |                                         [01;31m[K^~~~~~[m[K
+[0.651s] [01m[K/usr/include/pthread.h:459:32:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.652s]   459 |                                [01;31m[Ksize_t[m[K __buflen)
+[0.652s]       |                                [01;31m[K^~~~~~[m[K
+[0.652s] [01m[K/usr/include/pthread.h:489:52:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.652s]   489 | extern int pthread_setaffinity_np (pthread_t __th, [01;31m[Ksize_t[m[K __cpusetsize,
+[0.652s]       |                                                    [01;31m[K^~~~~~[m[K
+[0.652s] [01m[K/usr/include/pthread.h:494:52:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ has not been declared
+[0.652s]   494 | extern int pthread_getaffinity_np (pthread_t __th, [01;31m[Ksize_t[m[K __cpusetsize,
+[0.652s]       |                                                    [01;31m[K^~~~~~[m[K
+[0.661s] In file included from [01m[K/usr/include/c++/13/bits/chrono.h:40[m[K,
+[0.662s]                  from [01m[K/usr/include/c++/13/bits/this_thread_sleep.h:36[m[K,
+[0.662s]                  from [01m[K/usr/include/c++/13/thread:46[m[K:
+[0.668s] [01m[K/usr/include/c++/13/ctime:72:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kstrftime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.668s]    72 |   using ::[01;31m[Kstrftime[m[K;
+[0.668s]       |           [01;31m[K^~~~~~~~[m[K
+[0.680s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:5:36:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.681s]     5 | class DynamixelController : public [01;31m[Krclcpp[m[K::Node
+[0.681s]       |                                    [01;31m[K^~~~~~[m[K
+[0.681s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:5:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+[0.681s]     5 | class DynamixelController : public rclcpp::[01;31m[KNode[m[K
+[0.681s]       |                                            [01;31m[K^~~~[m[K
+[0.681s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:7:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[0.681s]     7 | [01;31m[Kpublic[m[K:
+[0.681s]       | [01;31m[K^~~~~~[m[K
+[0.681s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:7:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[0.681s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:6:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[0.682s]     6 | [01;36m[K{[m[K
+[0.682s]       | [01;36m[K^[m[K
+[0.682s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:40:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[0.682s]    40 | [01;31m[Kprivate[m[K:
+[0.682s]       | [01;31m[K^~~~~~~[m[K
+[0.682s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:42:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[0.682s]    42 | [01;31m[K}[m[K;
+[0.682s]       | [01;31m[K^[m[K
+[0.682s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[0.682s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.682s]    46 |   [01;31m[Krclcpp[m[K::init(argc, argv);
+[0.682s]       |   [01;31m[K^~~~~~[m[K
+[0.683s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:47:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.683s]    47 |   auto node = std::[01;31m[Kmake_shared[m[K<DynamixelController>();
+[0.683s]       |                    [01;31m[K^~~~~~~~~~~[m[K
+[0.683s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:4:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+[0.683s]     3 | #include <thread>
+[0.683s]   +++ |+[32m[K#include <memory>[m[K
+[0.683s]     4 | 
+[0.683s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:47:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[0.683s]    47 |   auto node = std::make_shared<DynamixelController[01;31m[K>[m[K();
+[0.683s]       |                                                   [01;31m[K^[m[K
+[0.688s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:47:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[0.688s]    47 |   auto node = std::make_shared<DynamixelController>([01;31m[K)[m[K;
+[0.688s]       |                                                     [01;31m[K^[m[K
+[0.688s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:48:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.688s]    48 |   [01;31m[Krclcpp[m[K::shutdown();
+[0.688s]       |   [01;31m[K^~~~~~[m[K
+[0.706s] gmake[2]: *** [CMakeFiles/dynamixel_controller.dir/build.make:76: CMakeFiles/dynamixel_controller.dir/src/dynamixel_controller.cpp.o] Error 1
+[0.706s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_controller.dir/all] Error 2
+[0.706s] gmake: *** [Makefile:146: all] Error 2
+[0.710s] Invoked command in '/home/yama/ros2_ws/build/exmple_dynamixel_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yama/ros2_ws/build/exmple_dynamixel_cpp -- -j1 -l1

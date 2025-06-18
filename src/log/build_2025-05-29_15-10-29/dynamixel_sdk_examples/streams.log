@@ -1,0 +1,73 @@
+[0.044s] Invoking command in '/home/yama/ros2_ws/src/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/yama/ros2_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yama/ros2_ws/src/install/dynamixel_sdk_examples
+[0.194s] -- The C compiler identification is GNU 13.3.0
+[0.270s] -- The CXX compiler identification is GNU 13.3.0
+[0.353s] -- Detecting C compiler ABI info
+[0.539s] -- Detecting C compiler ABI info - done
+[0.547s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.548s] -- Detecting C compile features
+[0.548s] -- Detecting C compile features - done
+[0.562s] -- Detecting CXX compiler ABI info
+[0.775s] -- Detecting CXX compiler ABI info - done
+[0.790s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.791s] -- Detecting CXX compile features
+[0.792s] -- Detecting CXX compile features - done
+[0.809s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.062s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.192s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.243s] -- Found dynamixel_sdk: 3.8.3 (/home/yama/ros2_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[1.245s] -- Found dynamixel_sdk_custom_interfaces: 3.8.3 (/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[1.287s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.301s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.477s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.511s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.514s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.679s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.700s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.746s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.885s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.889s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.210s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.213s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.214s] -- Configured cppcheck include dirs: /home/yama/ros2_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples/include
+[2.214s] -- Configured cppcheck exclude dirs and/or files: 
+[2.216s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.217s] -- Configured cpplint exclude dirs and/or files: 
+[2.218s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.218s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.219s] -- Added test 'lint_cmake' to check CMake code style
+[2.220s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.223s] -- Added test 'uncrustify' to check C / C++ code style
+[2.223s] -- Configured uncrustify additional arguments: 
+[2.224s] -- Added test 'xmllint' to check XML markup files
+[2.225s] -- Configuring done (2.1s)
+[2.245s] -- Generating done (0.0s)
+[2.257s] -- Build files have been written to: /home/yama/ros2_ws/src/build/dynamixel_sdk_examples
+[2.279s] Invoked command in '/home/yama/ros2_ws/src/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/yama/ros2_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yama/ros2_ws/src/install/dynamixel_sdk_examples
+[2.280s] Invoking command in '/home/yama/ros2_ws/src/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yama/ros2_ws/src/build/dynamixel_sdk_examples -- -j1 -l1
+[2.483s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[21.122s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[21.562s] [100%] Built target read_write_node
+[21.577s] Invoked command in '/home/yama/ros2_ws/src/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yama/ros2_ws/src/build/dynamixel_sdk_examples -- -j1 -l1
+[21.584s] Invoking command in '/home/yama/ros2_ws/src/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yama/ros2_ws/src/build/dynamixel_sdk_examples
+[21.617s] -- Install configuration: ""
+[21.617s] -- Execute custom install script
+[21.620s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[21.659s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node.py
+[21.672s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[21.705s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[21.729s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[21.744s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[21.757s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[21.770s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[21.799s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[21.824s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[21.839s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[21.851s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[21.863s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[21.880s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[21.911s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[21.929s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[21.944s] -- Symlinking: /home/yama/ros2_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[21.962s] Invoked command in '/home/yama/ros2_ws/src/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/src/install/dynamixel_sdk:/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/home/yama/ros2_ws/install/dynamixel_ctrl:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yama/ros2_ws/src/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/yama/ros2_ws/src/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yama/ros2_ws/src/build/dynamixel_sdk_examples

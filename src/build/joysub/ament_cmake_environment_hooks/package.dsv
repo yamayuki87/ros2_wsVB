@@ -1,0 +1,4 @@
+source;share/joysub/local_setup.bash
+source;share/joysub/local_setup.dsv
+source;share/joysub/local_setup.sh
+source;share/joysub/local_setup.zsh

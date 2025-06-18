@@ -1,0 +1,63 @@
+[0.032s] Invoking command in '/home/yama/ros2_ws/build/joyserv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yama/ros2_ws/src/joyserv -DCMAKE_INSTALL_PREFIX=/home/yama/ros2_ws/install/joyserv
+[0.168s] -- The C compiler identification is GNU 13.3.0
+[0.316s] -- The CXX compiler identification is GNU 13.3.0
+[0.430s] -- Detecting C compiler ABI info
+[0.683s] -- Detecting C compiler ABI info - done
+[0.698s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.701s] -- Detecting C compile features
+[0.702s] -- Detecting C compile features - done
+[0.733s] -- Detecting CXX compiler ABI info
+[0.930s] -- Detecting CXX compiler ABI info - done
+[0.938s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.939s] -- Detecting CXX compile features
+[0.940s] -- Detecting CXX compile features - done
+[0.942s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.140s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.266s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.363s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.393s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.408s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.426s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.586s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.591s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.912s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.963s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.021s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.122s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.240s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.414s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.414s] -- Configured cppcheck include dirs: 
+[2.414s] -- Configured cppcheck exclude dirs and/or files: 
+[2.415s] -- Added test 'lint_cmake' to check CMake code style
+[2.418s] -- Added test 'uncrustify' to check C / C++ code style
+[2.418s] -- Configured uncrustify additional arguments: 
+[2.419s] -- Added test 'xmllint' to check XML markup files
+[2.420s] -- Configuring done (2.4s)
+[2.431s] -- Generating done (0.0s)
+[2.451s] -- Build files have been written to: /home/yama/ros2_ws/build/joyserv
+[2.457s] Invoked command in '/home/yama/ros2_ws/build/joyserv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yama/ros2_ws/src/joyserv -DCMAKE_INSTALL_PREFIX=/home/yama/ros2_ws/install/joyserv
+[2.481s] Invoking command in '/home/yama/ros2_ws/build/joyserv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yama/ros2_ws/build/joyserv -- -j1 -l1
+[2.620s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_service.dir/src/joy_button_listener.cpp.o[0m
+[18.743s] [100%] [32m[1mLinking CXX executable joy_service[0m
+[19.201s] [100%] Built target joy_service
+[19.223s] Invoked command in '/home/yama/ros2_ws/build/joyserv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yama/ros2_ws/build/joyserv -- -j1 -l1
+[19.272s] Invoking command in '/home/yama/ros2_ws/build/joyserv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yama/ros2_ws/build/joyserv
+[19.319s] -- Install configuration: ""
+[19.320s] -- Installing: /home/yama/ros2_ws/install/joyserv/lib/joyserv/joy_service
+[19.326s] -- Set non-toolchain portion of runtime path of "/home/yama/ros2_ws/install/joyserv/lib/joyserv/joy_service" to ""
+[19.327s] -- Installing: /home/yama/ros2_ws/install/joyserv/share/ament_index/resource_index/package_run_dependencies/joyserv
+[19.328s] -- Installing: /home/yama/ros2_ws/install/joyserv/share/ament_index/resource_index/parent_prefix_path/joyserv
+[19.328s] -- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/environment/ament_prefix_path.sh
+[19.328s] -- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/environment/ament_prefix_path.dsv
+[19.329s] -- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/environment/path.sh
+[19.329s] -- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/environment/path.dsv
+[19.329s] -- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/local_setup.bash
+[19.330s] -- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/local_setup.sh
+[19.330s] -- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/local_setup.zsh
+[19.330s] -- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/local_setup.dsv
+[19.331s] -- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/package.dsv
+[19.331s] -- Installing: /home/yama/ros2_ws/install/joyserv/share/ament_index/resource_index/packages/joyserv
+[19.335s] -- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/cmake/joyservConfig.cmake
+[19.336s] -- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/cmake/joyservConfig-version.cmake
+[19.339s] -- Installing: /home/yama/ros2_ws/install/joyserv/share/joyserv/package.xml
+[19.340s] Invoked command in '/home/yama/ros2_ws/build/joyserv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yama/ros2_ws/build/joyserv

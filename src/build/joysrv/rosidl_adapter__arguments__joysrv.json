@@ -1,0 +1,6 @@
+{
+  "package_name": "joysrv",
+  "non_idl_tuples": [
+    "/home/yama/ros2_ws/src/joysrv:srv/server.srv"
+  ]
+}

@@ -1,0 +1,64 @@
+[0.025s] Invoking command in '/home/yama/ros2_ws/build/joysub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yama/ros2_ws/src/joysub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yama/ros2_ws/install/joysub
+[0.193s] -- The C compiler identification is GNU 13.3.0
+[0.314s] -- The CXX compiler identification is GNU 13.3.0
+[0.382s] -- Detecting C compiler ABI info
+[0.611s] -- Detecting C compiler ABI info - done
+[0.619s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.619s] -- Detecting C compile features
+[0.620s] -- Detecting C compile features - done
+[0.634s] -- Detecting CXX compiler ABI info
+[0.836s] -- Detecting CXX compiler ABI info - done
+[0.845s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.845s] -- Detecting CXX compile features
+[0.846s] -- Detecting CXX compile features - done
+[0.848s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.122s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.242s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.271s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.334s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.348s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.364s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.420s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.548s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.550s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.671s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.697s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.756s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.843s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.955s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.205s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.209s] -- Configured cppcheck include dirs: 
+[2.209s] -- Configured cppcheck exclude dirs and/or files: 
+[2.209s] -- Added test 'lint_cmake' to check CMake code style
+[2.225s] -- Added test 'uncrustify' to check C / C++ code style
+[2.225s] -- Configured uncrustify additional arguments: 
+[2.239s] -- Added test 'xmllint' to check XML markup files
+[2.239s] -- Configuring done (2.2s)
+[2.273s] -- Generating done (0.0s)
+[2.280s] -- Build files have been written to: /home/yama/ros2_ws/build/joysub
+[2.294s] Invoked command in '/home/yama/ros2_ws/build/joysub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yama/ros2_ws/src/joysub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yama/ros2_ws/install/joysub
+[2.295s] Invoking command in '/home/yama/ros2_ws/build/joysub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yama/ros2_ws/build/joysub -- -j1 -l1
+[2.485s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_subscriber.dir/src/joy_subscriber.cpp.o[0m
+[18.299s] [100%] [32m[1mLinking CXX executable joy_subscriber[0m
+[18.809s] [100%] Built target joy_subscriber
+[18.825s] Invoked command in '/home/yama/ros2_ws/build/joysub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yama/ros2_ws/build/joysub -- -j1 -l1
+[18.826s] Invoking command in '/home/yama/ros2_ws/build/joysub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yama/ros2_ws/build/joysub
+[18.842s] -- Install configuration: ""
+[18.843s] -- Execute custom install script
+[18.844s] -- Symlinking: /home/yama/ros2_ws/install/joysub/lib/joysub/joy_subscriber
+[18.883s] -- Symlinking: /home/yama/ros2_ws/install/joysub/share/ament_index/resource_index/package_run_dependencies/joysub
+[18.907s] -- Symlinking: /home/yama/ros2_ws/install/joysub/share/ament_index/resource_index/parent_prefix_path/joysub
+[18.944s] -- Symlinking: /home/yama/ros2_ws/install/joysub/share/joysub/environment/ament_prefix_path.sh
+[18.964s] -- Symlinking: /home/yama/ros2_ws/install/joysub/share/joysub/environment/ament_prefix_path.dsv
+[19.013s] -- Symlinking: /home/yama/ros2_ws/install/joysub/share/joysub/environment/path.sh
+[19.028s] -- Symlinking: /home/yama/ros2_ws/install/joysub/share/joysub/environment/path.dsv
+[19.049s] -- Symlinking: /home/yama/ros2_ws/install/joysub/share/joysub/local_setup.bash
+[19.076s] -- Symlinking: /home/yama/ros2_ws/install/joysub/share/joysub/local_setup.sh
+[19.103s] -- Symlinking: /home/yama/ros2_ws/install/joysub/share/joysub/local_setup.zsh
+[19.114s] -- Symlinking: /home/yama/ros2_ws/install/joysub/share/joysub/local_setup.dsv
+[19.129s] -- Symlinking: /home/yama/ros2_ws/install/joysub/share/joysub/package.dsv
+[19.145s] -- Symlinking: /home/yama/ros2_ws/install/joysub/share/ament_index/resource_index/packages/joysub
+[19.158s] -- Symlinking: /home/yama/ros2_ws/install/joysub/share/joysub/cmake/joysubConfig.cmake
+[19.220s] -- Symlinking: /home/yama/ros2_ws/install/joysub/share/joysub/cmake/joysubConfig-version.cmake
+[19.256s] -- Symlinking: /home/yama/ros2_ws/install/joysub/share/joysub/package.xml
+[19.270s] Invoked command in '/home/yama/ros2_ws/build/joysub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yama/ros2_ws/build/joysub

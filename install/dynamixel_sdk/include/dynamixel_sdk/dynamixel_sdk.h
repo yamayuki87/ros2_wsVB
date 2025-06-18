@@ -1,0 +1,1 @@
+/home/yama/ros2_ws/src/dynamixel_sdk/include/dynamixel_sdk/dynamixel_sdk.h

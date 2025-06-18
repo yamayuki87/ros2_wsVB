@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000163] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000193] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000205] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000213] (-) JobUnselected: {'identifier': 'joysub'}
+[0.000223] (exmple_dynamixel_cpp) JobQueued: {'identifier': 'exmple_dynamixel_cpp', 'dependencies': OrderedDict()}
+[0.000236] (exmple_dynamixel_cpp) JobStarted: {'identifier': 'exmple_dynamixel_cpp'}
+[0.020948] (exmple_dynamixel_cpp) JobProgress: {'identifier': 'exmple_dynamixel_cpp', 'progress': 'cmake'}
+[0.024035] (exmple_dynamixel_cpp) JobProgress: {'identifier': 'exmple_dynamixel_cpp', 'progress': 'build'}
+[0.024488] (exmple_dynamixel_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yama/ros2_ws/build/exmple_dynamixel_cpp', '--', '-j1', '-l1'], 'cwd': '/home/yama/ros2_ws/build/exmple_dynamixel_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yama', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yama/ros2_ws/install/dynamixel_sdk/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yama', 'OLDPWD': '/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2313', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/yama/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yama', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yama-VirtualBox:@/tmp/.ICE-unix/2265,unix/yama-VirtualBox:/tmp/.ICE-unix/2265', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2b70742e_e464_468e_b373_93c3e43646fa', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.120', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/exmple_dynamixel_cpp:/home/yama/ros2_ws/install/dynamixel_sdk_examples:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yama/ros2_ws/build/exmple_dynamixel_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/yama/ros2_ws/install/joysub:/home/yama/ros2_ws/install/exmple_dynamixel_cpp:/home/yama/ros2_ws/install/dynamixel_sdk_examples:/home/yama/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/yama/ros2_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.096932] (-) TimerEvent: {}
+[0.154574] (exmple_dynamixel_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_controller.dir/src/dynamixel_controller.cpp.o\x1b[0m\n'}
+[0.199753] (-) TimerEvent: {}
+[0.306954] (-) TimerEvent: {}
+[0.422022] (-) TimerEvent: {}
+[0.526945] (-) TimerEvent: {}
+[0.629081] (-) TimerEvent: {}
+[0.734994] (-) TimerEvent: {}
+[0.839262] (-) TimerEvent: {}
+[0.943912] (-) TimerEvent: {}
+[1.062160] (-) TimerEvent: {}
+[1.164108] (-) TimerEvent: {}
+[1.268449] (-) TimerEvent: {}
+[1.385113] (-) TimerEvent: {}
+[1.489937] (-) TimerEvent: {}
+[1.593049] (-) TimerEvent: {}
+[1.698411] (-) TimerEvent: {}
+[1.803011] (-) TimerEvent: {}
+[1.909061] (-) TimerEvent: {}
+[2.014941] (-) TimerEvent: {}
+[2.119907] (-) TimerEvent: {}
+[2.224090] (-) TimerEvent: {}
+[2.328969] (-) TimerEvent: {}
+[2.431960] (-) TimerEvent: {}
+[2.536371] (-) TimerEvent: {}
+[2.638084] (-) TimerEvent: {}
+[2.742918] (-) TimerEvent: {}
+[2.844956] (-) TimerEvent: {}
+[2.949516] (-) TimerEvent: {}
+[3.058019] (-) TimerEvent: {}
+[3.158964] (-) TimerEvent: {}
+[3.270901] (-) TimerEvent: {}
+[3.374420] (-) TimerEvent: {}
+[3.479280] (-) TimerEvent: {}
+[3.580536] (-) TimerEvent: {}
+[3.696321] (-) TimerEvent: {}
+[3.811132] (-) TimerEvent: {}
+[3.915157] (-) TimerEvent: {}
+[4.018028] (-) TimerEvent: {}
+[4.121796] (-) TimerEvent: {}
+[4.224917] (-) TimerEvent: {}
+[4.325601] (exmple_dynamixel_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:59:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[4.325849] (-) TimerEvent: {}
+[4.328026] (exmple_dynamixel_cpp) StderrLine: {'line': b'   59 | }\n'}
+[4.328292] (exmple_dynamixel_cpp) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.338935] (exmple_dynamixel_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:5:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.339178] (exmple_dynamixel_cpp) StderrLine: {'line': b'    5 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[4.339230] (exmple_dynamixel_cpp) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.344132] (exmple_dynamixel_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDynamixelController::\x1b[01;32m\x1b[KDynamixelController\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.344475] (exmple_dynamixel_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:14:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdxl_wb\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdxl_id\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.344741] (exmple_dynamixel_cpp) StderrLine: {'line': b'   14 |     if (!\x1b[01;31m\x1b[Kdxl_wb\x1b[m\x1b[K.init(device_name, baud_rate))\n'}
+[4.344948] (exmple_dynamixel_cpp) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.345202] (exmple_dynamixel_cpp) StderrLine: {'line': b'      |          \x1b[32m\x1b[Kdxl_id\x1b[m\x1b[K\n'}
+[4.367398] (exmple_dynamixel_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:20:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdxl_wb\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdxl_id\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.376652] (exmple_dynamixel_cpp) StderrLine: {'line': b'   20 |     if (!\x1b[01;31m\x1b[Kdxl_wb\x1b[m\x1b[K.ping(dxl_id))\n'}
+[4.376769] (exmple_dynamixel_cpp) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.376931] (exmple_dynamixel_cpp) StderrLine: {'line': b'      |          \x1b[32m\x1b[Kdxl_id\x1b[m\x1b[K\n'}
+[4.390923] (exmple_dynamixel_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:27:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdxl_wb\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdxl_id\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.391206] (exmple_dynamixel_cpp) StderrLine: {'line': b'   27 |     if (!\x1b[01;31m\x1b[Kdxl_wb\x1b[m\x1b[K.itemWrite(dxl_id, "Operating_Mode", 3)) // 3: Position mode\n'}
+[4.391290] (exmple_dynamixel_cpp) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.391363] (exmple_dynamixel_cpp) StderrLine: {'line': b'      |          \x1b[32m\x1b[Kdxl_id\x1b[m\x1b[K\n'}
+[4.411079] (exmple_dynamixel_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:35:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdxl_wb\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdxl_id\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.411459] (exmple_dynamixel_cpp) StderrLine: {'line': b'   35 |     if (!\x1b[01;31m\x1b[Kdxl_wb\x1b[m\x1b[K.jointMode(dxl_id, 0, 0))\n'}
+[4.411530] (exmple_dynamixel_cpp) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.411580] (exmple_dynamixel_cpp) StderrLine: {'line': b'      |          \x1b[32m\x1b[Kdxl_id\x1b[m\x1b[K\n'}
+[4.416230] (exmple_dynamixel_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:42:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdxl_wb\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdxl_id\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.416472] (exmple_dynamixel_cpp) StderrLine: {'line': b'   42 |     if (!\x1b[01;31m\x1b[Kdxl_wb\x1b[m\x1b[K.goalPosition(dxl_id, 2048)) // \xe5\xae\x89\xe5\x85\xa8\xe3\x81\xaa\xe4\xb8\xad\xe9\x96\x93\xe5\x80\xa4\n'}
+[4.416609] (exmple_dynamixel_cpp) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.416704] (exmple_dynamixel_cpp) StderrLine: {'line': b'      |          \x1b[32m\x1b[Kdxl_id\x1b[m\x1b[K\n'}
+[4.417855] (exmple_dynamixel_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:48:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.418072] (exmple_dynamixel_cpp) StderrLine: {'line': b'   48 | \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[4.418162] (exmple_dynamixel_cpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.424270] (exmple_dynamixel_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.424567] (exmple_dynamixel_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:59:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[4.424739] (exmple_dynamixel_cpp) StderrLine: {'line': b'   59 | }\n'}
+[4.424835] (exmple_dynamixel_cpp) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.431318] (-) TimerEvent: {}
+[4.542306] (-) TimerEvent: {}
+[4.649435] (-) TimerEvent: {}
+[4.762963] (-) TimerEvent: {}
+[4.866479] (-) TimerEvent: {}
+[4.972127] (-) TimerEvent: {}
+[5.075081] (-) TimerEvent: {}
+[5.178052] (-) TimerEvent: {}
+[5.281576] (-) TimerEvent: {}
+[5.385220] (-) TimerEvent: {}
+[5.489989] (-) TimerEvent: {}
+[5.592375] (-) TimerEvent: {}
+[5.697336] (-) TimerEvent: {}
+[5.716996] (exmple_dynamixel_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dynamixel_controller.dir/build.make:76: CMakeFiles/dynamixel_controller.dir/src/dynamixel_controller.cpp.o] Error 1\n'}
+[5.717213] (exmple_dynamixel_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_controller.dir/all] Error 2\n'}
+[5.717260] (exmple_dynamixel_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.718034] (exmple_dynamixel_cpp) CommandEnded: {'returncode': 2}
+[5.742395] (exmple_dynamixel_cpp) JobEnded: {'identifier': 'exmple_dynamixel_cpp', 'rc': 2}
+[5.744841] (-) EventReactorShutdown: {}

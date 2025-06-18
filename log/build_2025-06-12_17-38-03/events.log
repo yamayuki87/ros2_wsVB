@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.025607] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.025765] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.025792] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.025810] (-) JobUnselected: {'identifier': 'exmple_dynamixel_cpp'}
+[0.025825] (-) JobUnselected: {'identifier': 'joysub'}
+[0.025847] (dynamixeljoy) JobQueued: {'identifier': 'dynamixeljoy', 'dependencies': OrderedDict()}
+[0.025874] (dynamixeljoy) JobStarted: {'identifier': 'dynamixeljoy'}
+[0.104512] (-) TimerEvent: {}
+[0.142457] (dynamixeljoy) JobProgress: {'identifier': 'dynamixeljoy', 'progress': 'cmake'}
+[0.142689] (dynamixeljoy) JobProgress: {'identifier': 'dynamixeljoy', 'progress': 'build'}
+[0.155277] (dynamixeljoy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yama/ros2_ws/build/dynamixeljoy', '--', '-j1', '-l1'], 'cwd': '/home/yama/ros2_ws/build/dynamixeljoy', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yama', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yama', 'OLDPWD': '/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2243', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yama', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yama-VirtualBox:@/tmp/.ICE-unix/2207,unix/yama-VirtualBox:/tmp/.ICE-unix/2207', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e4694322_5e11_4628_88e9_36d11e501082', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.90', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yama/ros2_ws/build/dynamixeljoy', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.207535] (-) TimerEvent: {}
+[0.320015] (-) TimerEvent: {}
+[0.424181] (-) TimerEvent: {}
+[0.525415] (-) TimerEvent: {}
+[0.630599] (dynamixeljoy) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_controllerjoy.dir/src/dycontrol.cpp.o\x1b[0m\n'}
+[0.630838] (-) TimerEvent: {}
+[0.739604] (-) TimerEvent: {}
+[0.854329] (-) TimerEvent: {}
+[0.965469] (-) TimerEvent: {}
+[1.078949] (-) TimerEvent: {}
+[1.186838] (-) TimerEvent: {}
+[1.296670] (-) TimerEvent: {}
+[1.400312] (-) TimerEvent: {}
+[1.515359] (-) TimerEvent: {}
+[1.631464] (-) TimerEvent: {}
+[1.736905] (-) TimerEvent: {}
+[1.843596] (-) TimerEvent: {}
+[1.969585] (-) TimerEvent: {}
+[2.073406] (-) TimerEvent: {}
+[2.179222] (-) TimerEvent: {}
+[2.285447] (-) TimerEvent: {}
+[2.390296] (-) TimerEvent: {}
+[2.494749] (-) TimerEvent: {}
+[2.603129] (-) TimerEvent: {}
+[2.704323] (-) TimerEvent: {}
+[2.810260] (-) TimerEvent: {}
+[2.926248] (-) TimerEvent: {}
+[3.042410] (-) TimerEvent: {}
+[3.147493] (-) TimerEvent: {}
+[3.262346] (-) TimerEvent: {}
+[3.369712] (-) TimerEvent: {}
+[3.484262] (-) TimerEvent: {}
+[3.588224] (-) TimerEvent: {}
+[3.714524] (-) TimerEvent: {}
+[3.829423] (-) TimerEvent: {}
+[3.932645] (-) TimerEvent: {}
+[4.037262] (-) TimerEvent: {}
+[4.140588] (-) TimerEvent: {}
+[4.244224] (-) TimerEvent: {}
+[4.349435] (-) TimerEvent: {}
+[4.453205] (-) TimerEvent: {}
+[4.559250] (-) TimerEvent: {}
+[4.713496] (-) TimerEvent: {}
+[4.823019] (-) TimerEvent: {}
+[4.925857] (-) TimerEvent: {}
+[5.029337] (-) TimerEvent: {}
+[5.133286] (-) TimerEvent: {}
+[5.241920] (-) TimerEvent: {}
+[5.344309] (-) TimerEvent: {}
+[5.448083] (-) TimerEvent: {}
+[5.551517] (-) TimerEvent: {}
+[5.664263] (-) TimerEvent: {}
+[5.768325] (-) TimerEvent: {}
+[5.871638] (-) TimerEvent: {}
+[5.978458] (-) TimerEvent: {}
+[6.080476] (-) TimerEvent: {}
+[6.183826] (-) TimerEvent: {}
+[6.302067] (-) TimerEvent: {}
+[6.407005] (-) TimerEvent: {}
+[6.517229] (-) TimerEvent: {}
+[6.632536] (-) TimerEvent: {}
+[6.735623] (-) TimerEvent: {}
+[6.850245] (-) TimerEvent: {}
+[6.955288] (-) TimerEvent: {}
+[7.058889] (-) TimerEvent: {}
+[7.163508] (-) TimerEvent: {}
+[7.267247] (-) TimerEvent: {}
+[7.393479] (-) TimerEvent: {}
+[7.497269] (-) TimerEvent: {}
+[7.602332] (-) TimerEvent: {}
+[7.717321] (-) TimerEvent: {}
+[7.831295] (-) TimerEvent: {}
+[7.935256] (-) TimerEvent: {}
+[8.038219] (-) TimerEvent: {}
+[8.142285] (-) TimerEvent: {}
+[8.248318] (-) TimerEvent: {}
+[8.351681] (-) TimerEvent: {}
+[8.458842] (-) TimerEvent: {}
+[8.567323] (-) TimerEvent: {}
+[8.673766] (-) TimerEvent: {}
+[8.776145] (-) TimerEvent: {}
+[8.881587] (-) TimerEvent: {}
+[8.992192] (-) TimerEvent: {}
+[9.095366] (-) TimerEvent: {}
+[9.210365] (-) TimerEvent: {}
+[9.314208] (-) TimerEvent: {}
+[9.419748] (-) TimerEvent: {}
+[9.524454] (-) TimerEvent: {}
+[9.639423] (-) TimerEvent: {}
+[9.744507] (-) TimerEvent: {}
+[9.848526] (-) TimerEvent: {}
+[9.952658] (-) TimerEvent: {}
+[10.056319] (-) TimerEvent: {}
+[10.160229] (-) TimerEvent: {}
+[10.265190] (-) TimerEvent: {}
+[10.368498] (-) TimerEvent: {}
+[10.472779] (-) TimerEvent: {}
+[10.589658] (-) TimerEvent: {}
+[10.692294] (-) TimerEvent: {}
+[10.797163] (-) TimerEvent: {}
+[10.859797] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/dynamixeljoy/src/dycontrol.cpp:9:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KDynamixelController\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.860172] (dynamixeljoy) StderrLine: {'line': b'    9 |   \x1b[01;31m\x1b[KDynamixelController\x1b[m\x1b[K()\n'}
+[10.860308] (dynamixeljoy) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.910746] (-) TimerEvent: {}
+[10.945152] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/dynamixeljoy/src/dycontrol.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint DynamixelControllerJoy::\x1b[01;32m\x1b[KDynamixelController\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.945415] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/dynamixeljoy/src/dycontrol.cpp:10:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[10.945499] (dynamixeljoy) StderrLine: {'line': b'   10 |   : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("dynamixel_controllerjoy")\n'}
+[10.945571] (dynamixeljoy) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.952360] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/dynamixeljoy/src/dycontrol.cpp:19:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with no value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.952689] (dynamixeljoy) StderrLine: {'line': b'   19 |       \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K;\n'}
+[10.952801] (dynamixeljoy) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.953480] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/dynamixeljoy/src/dycontrol.cpp:25:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with no value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.953613] (dynamixeljoy) StderrLine: {'line': b'   25 |       \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K;\n'}
+[10.953684] (dynamixeljoy) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.954597] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/dynamixeljoy/src/dycontrol.cpp:31:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with no value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.954719] (dynamixeljoy) StderrLine: {'line': b'   31 |       \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K;\n'}
+[10.954795] (dynamixeljoy) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.955466] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/dynamixeljoy/src/dycontrol.cpp:37:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with no value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.955585] (dynamixeljoy) StderrLine: {'line': b'   37 |       \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K;\n'}
+[10.956174] (dynamixeljoy) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.956265] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/dynamixeljoy/src/dycontrol.cpp:45:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with no value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.956338] (dynamixeljoy) StderrLine: {'line': b'   45 |       \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K;\n'}
+[10.956404] (dynamixeljoy) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.956780] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/dynamixeljoy/src/dycontrol.cpp:51:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with no value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.956869] (dynamixeljoy) StderrLine: {'line': b'   51 |       \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K;\n'}
+[10.957259] (dynamixeljoy) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.957360] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/dynamixeljoy/src/dycontrol.cpp:57:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with no value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.957438] (dynamixeljoy) StderrLine: {'line': b'   57 |       \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K;\n'}
+[10.957507] (dynamixeljoy) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.957861] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/dynamixeljoy/src/dycontrol.cpp:63:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with no value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.961157] (dynamixeljoy) StderrLine: {'line': b'   63 |       \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K;\n'}
+[10.961257] (dynamixeljoy) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[11.014177] (-) TimerEvent: {}
+[11.118288] (-) TimerEvent: {}
+[11.222379] (-) TimerEvent: {}
+[11.327359] (-) TimerEvent: {}
+[11.431209] (-) TimerEvent: {}
+[11.536178] (-) TimerEvent: {}
+[11.640265] (-) TimerEvent: {}
+[11.744601] (-) TimerEvent: {}
+[11.849215] (-) TimerEvent: {}
+[11.954259] (-) TimerEvent: {}
+[12.056791] (-) TimerEvent: {}
+[12.162693] (-) TimerEvent: {}
+[12.267290] (-) TimerEvent: {}
+[12.370217] (-) TimerEvent: {}
+[12.476872] (-) TimerEvent: {}
+[12.579556] (-) TimerEvent: {}
+[12.688098] (-) TimerEvent: {}
+[12.801557] (-) TimerEvent: {}
+[12.905223] (-) TimerEvent: {}
+[13.012869] (-) TimerEvent: {}
+[13.120514] (-) TimerEvent: {}
+[13.225677] (-) TimerEvent: {}
+[13.329208] (-) TimerEvent: {}
+[13.384897] (dynamixeljoy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/stl_tempbuf.h:61\x1b[m\x1b[K,\n'}
+[13.385196] (dynamixeljoy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:66\x1b[m\x1b[K,\n'}
+[13.385277] (dynamixeljoy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169\x1b[m\x1b[K,\n'}
+[13.385345] (dynamixeljoy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yama/ros2_ws/src/dynamixeljoy/src/dycontrol.cpp:1\x1b[m\x1b[K:\n'}
+[13.385433] (dynamixeljoy) StderrLine: {'line': b'/usr/include/c++/13/bits/stl_construct.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid std::\x1b[01;32m\x1b[K_Construct\x1b[m\x1b[K(_Tp*, _Args&& ...) \x1b[35m\x1b[K[with _Tp = DynamixelControllerJoy; _Args = {}]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.385677] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/alloc_traits.h:661:19:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<void> >::\x1b[01;32m\x1b[Kconstruct\x1b[m\x1b[K(allocator_type&, _Up*, _Args&& ...) \x1b[35m\x1b[K[with _Up = DynamixelControllerJoy; _Args = {}; allocator_type = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.385809] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:604:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::\x1b[01;32m\x1b[K_Sp_counted_ptr_inplace\x1b[m\x1b[K(_Alloc, _Args&& ...) \x1b[35m\x1b[K[with _Args = {}; _Tp = DynamixelControllerJoy; _Alloc = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.385926] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:971:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::\x1b[01;32m\x1b[K__shared_count\x1b[m\x1b[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) \x1b[35m\x1b[K[with _Tp = DynamixelControllerJoy; _Alloc = std::allocator<void>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.386007] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:1712:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::\x1b[01;32m\x1b[K__shared_ptr\x1b[m\x1b[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) \x1b[35m\x1b[K[with _Alloc = std::allocator<void>; _Args = {}; _Tp = DynamixelControllerJoy; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.386088] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:464:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::\x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) \x1b[35m\x1b[K[with _Alloc = std::allocator<void>; _Args = {}; _Tp = DynamixelControllerJoy]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.386174] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1009:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::\x1b[01;32m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&& ...) \x1b[35m\x1b[K[with _Tp = DynamixelControllerJoy; _Args = {}; typename enable_if<(! is_array< <template-parameter-1-1> >::value), _Tp>::type = DynamixelControllerJoy]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.386267] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/dynamixeljoy/src/dycontrol.cpp:90:55:\x1b[m\x1b[K   required from here\n'}
+[13.386335] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_construct.h:119:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[KDynamixelControllerJoy::\x1b[01;32m\x1b[KDynamixelControllerJoy\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.386399] (dynamixeljoy) StderrLine: {'line': b'  119 |       \x1b[01;31m\x1b[K::new((void*)__p) _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[13.386463] (dynamixeljoy) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.386621] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/dynamixeljoy/src/dycontrol.cpp:6:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDynamixelControllerJoy::\x1b[01;32m\x1b[KDynamixelControllerJoy\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99 is implicitly deleted because the default definition would be ill-formed:\n'}
+[13.386752] (dynamixeljoy) StderrLine: {'line': b'    6 | class \x1b[01;36m\x1b[KDynamixelControllerJoy\x1b[m\x1b[K : public rclcpp::Node\n'}
+[13.386824] (dynamixeljoy) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.386929] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/dynamixeljoy/src/dycontrol.cpp:6:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.387221] (dynamixeljoy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[13.387341] (dynamixeljoy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[13.387420] (dynamixeljoy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K:\n'}
+[13.387490] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const rclcpp::Node&, const std::string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.387572] (dynamixeljoy) StderrLine: {'line': b' 1629 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[13.387645] (dynamixeljoy) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.387777] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[13.387945] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.388069] (dynamixeljoy) StderrLine: {'line': b'  103 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[13.388116] (dynamixeljoy) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.388153] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[13.391239] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::\x1b[01;32m\x1b[KNode\x1b[m\x1b[K(const std::string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.391584] (dynamixeljoy) StderrLine: {'line': b'   91 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[13.391723] (dynamixeljoy) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.391777] (dynamixeljoy) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[13.433221] (-) TimerEvent: {}
+[13.553815] (-) TimerEvent: {}
+[13.661428] (-) TimerEvent: {}
+[13.764572] (-) TimerEvent: {}
+[13.870339] (-) TimerEvent: {}
+[13.973222] (-) TimerEvent: {}
+[14.078421] (-) TimerEvent: {}
+[14.184265] (-) TimerEvent: {}
+[14.288179] (-) TimerEvent: {}
+[14.393263] (-) TimerEvent: {}
+[14.498192] (-) TimerEvent: {}
+[14.603566] (-) TimerEvent: {}
+[14.708224] (-) TimerEvent: {}
+[14.822205] (-) TimerEvent: {}
+[14.926530] (-) TimerEvent: {}
+[15.031199] (-) TimerEvent: {}
+[15.135207] (-) TimerEvent: {}
+[15.240281] (-) TimerEvent: {}
+[15.356534] (-) TimerEvent: {}
+[15.457472] (-) TimerEvent: {}
+[15.561373] (-) TimerEvent: {}
+[15.665338] (-) TimerEvent: {}
+[15.769310] (-) TimerEvent: {}
+[15.856752] (dynamixeljoy) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dynamixel_controllerjoy.dir/build.make:76: CMakeFiles/dynamixel_controllerjoy.dir/src/dycontrol.cpp.o] Error 1\n'}
+[15.857357] (dynamixeljoy) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_controllerjoy.dir/all] Error 2\n'}
+[15.857654] (dynamixeljoy) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.870143] (-) TimerEvent: {}
+[15.946765] (dynamixeljoy) CommandEnded: {'returncode': 2}
+[15.964890] (dynamixeljoy) JobEnded: {'identifier': 'dynamixeljoy', 'rc': 2}
+[15.971419] (-) TimerEvent: {}
+[15.972416] (-) EventReactorShutdown: {}

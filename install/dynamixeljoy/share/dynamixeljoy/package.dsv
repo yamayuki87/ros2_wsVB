@@ -1,0 +1,5 @@
+source;share/dynamixeljoy/local_setup.bash
+source;share/dynamixeljoy/local_setup.dsv
+source;share/dynamixeljoy/local_setup.ps1
+source;share/dynamixeljoy/local_setup.sh
+source;share/dynamixeljoy/local_setup.zsh
