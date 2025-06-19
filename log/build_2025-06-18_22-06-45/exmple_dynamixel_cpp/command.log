@@ -1,0 +1,2 @@
+Invoking command in '/home/yama/ros2_ws/build/exmple_dynamixel_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yama/ros2_ws/build/exmple_dynamixel_cpp -- -j1 -l1
+Invoked command in '/home/yama/ros2_ws/build/exmple_dynamixel_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yama/ros2_ws/build/exmple_dynamixel_cpp -- -j1 -l1

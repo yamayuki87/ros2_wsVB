@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.023889] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.024026] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.024049] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.024064] (-) JobUnselected: {'identifier': 'dynamixeljoy'}
+[0.024075] (-) JobUnselected: {'identifier': 'joyserv'}
+[0.024085] (-) JobUnselected: {'identifier': 'joysub'}
+[0.024104] (exmple_dynamixel_cpp) JobQueued: {'identifier': 'exmple_dynamixel_cpp', 'dependencies': OrderedDict()}
+[0.024124] (exmple_dynamixel_cpp) JobStarted: {'identifier': 'exmple_dynamixel_cpp'}
+[0.040568] (exmple_dynamixel_cpp) JobProgress: {'identifier': 'exmple_dynamixel_cpp', 'progress': 'cmake'}
+[0.042574] (exmple_dynamixel_cpp) JobProgress: {'identifier': 'exmple_dynamixel_cpp', 'progress': 'build'}
+[0.052810] (exmple_dynamixel_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yama/ros2_ws/build/exmple_dynamixel_cpp', '--', '-j1', '-l1'], 'cwd': '/home/yama/ros2_ws/build/exmple_dynamixel_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yama', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yama', 'OLDPWD': '/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2243', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yama', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yama-VirtualBox:@/tmp/.ICE-unix/2207,unix/yama-VirtualBox:/tmp/.ICE-unix/2207', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0670e8a0_3941_42e6_918b_8b4983128898', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.329', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yama/ros2_ws/build/exmple_dynamixel_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.100637] (-) TimerEvent: {}
+[0.189471] (exmple_dynamixel_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_controller.dir/src/dynamixel_controller.cpp.o\x1b[0m\n'}
+[0.208673] (-) TimerEvent: {}
+[0.323664] (-) TimerEvent: {}
+[0.427626] (-) TimerEvent: {}
+[0.533359] (-) TimerEvent: {}
+[0.648896] (-) TimerEvent: {}
+[0.764603] (-) TimerEvent: {}
+[0.878818] (-) TimerEvent: {}
+[1.004593] (-) TimerEvent: {}
+[1.109293] (-) TimerEvent: {}
+[1.213541] (-) TimerEvent: {}
+[1.317310] (-) TimerEvent: {}
+[1.431538] (-) TimerEvent: {}
+[1.546744] (-) TimerEvent: {}
+[1.651782] (-) TimerEvent: {}
+[1.756831] (-) TimerEvent: {}
+[1.861333] (-) TimerEvent: {}
+[1.987200] (-) TimerEvent: {}
+[2.091709] (-) TimerEvent: {}
+[2.196990] (-) TimerEvent: {}
+[2.311994] (-) TimerEvent: {}
+[2.437295] (-) TimerEvent: {}
+[2.541096] (-) TimerEvent: {}
+[2.644243] (-) TimerEvent: {}
+[2.749269] (-) TimerEvent: {}
+[2.863986] (-) TimerEvent: {}
+[2.967202] (-) TimerEvent: {}
+[3.072169] (-) TimerEvent: {}
+[3.186272] (-) TimerEvent: {}
+[3.322684] (-) TimerEvent: {}
+[3.426604] (-) TimerEvent: {}
+[3.530784] (-) TimerEvent: {}
+[3.645153] (-) TimerEvent: {}
+[3.748847] (-) TimerEvent: {}
+[3.863484] (-) TimerEvent: {}
+[3.883252] (exmple_dynamixel_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.884103] (exmple_dynamixel_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[3.884232] (exmple_dynamixel_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[3.884325] (exmple_dynamixel_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:1\x1b[m\x1b[K:\n'}
+[3.884417] (exmple_dynamixel_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDynamixelController::\x1b[01;32m\x1b[KDynamixelController\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.884505] (exmple_dynamixel_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:42:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KgetPresentPositionData\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.884592] (exmple_dynamixel_cpp) StderrLine: {'line': b'   42 |          RCLCPP_INFO(this->get_logger(), "present positiron %d", \x1b[01;31m\x1b[KgetPresentPositionData\x1b[m\x1b[K(dxl_id););\n'}
+[3.884697] (exmple_dynamixel_cpp) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.884780] (exmple_dynamixel_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:42:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.884868] (exmple_dynamixel_cpp) StderrLine: {'line': b'   42 |          \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "present positiron %d", getPresentPositionData(dxl_id););\n'}
+[3.885011] (exmple_dynamixel_cpp) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.976721] (-) TimerEvent: {}
+[4.079794] (-) TimerEvent: {}
+[4.194457] (-) TimerEvent: {}
+[4.299407] (-) TimerEvent: {}
+[4.404645] (-) TimerEvent: {}
+[4.530306] (-) TimerEvent: {}
+[4.634406] (-) TimerEvent: {}
+[4.739159] (-) TimerEvent: {}
+[4.843075] (-) TimerEvent: {}
+[4.957549] (-) TimerEvent: {}
+[5.067602] (exmple_dynamixel_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/dynamixel_controller.dir/build.make:76: CMakeFiles/dynamixel_controller.dir/src/dynamixel_controller.cpp.o] Error 1\n'}
+[5.067878] (-) TimerEvent: {}
+[5.072559] (exmple_dynamixel_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_controller.dir/all] Error 2\n'}
+[5.073115] (exmple_dynamixel_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.083400] (exmple_dynamixel_cpp) CommandEnded: {'returncode': 2}
+[5.119047] (exmple_dynamixel_cpp) JobEnded: {'identifier': 'exmple_dynamixel_cpp', 'rc': 2}
+[5.121949] (-) EventReactorShutdown: {}

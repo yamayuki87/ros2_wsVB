@@ -1,0 +1,28 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_controller.dir/src/dynamixel_controller.cpp.o[0m
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:[m[K In constructor ‘[01m[KDynamixelController::[01;32m[KDynamixelController[m[K()[m[K’:
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:14:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kunit8_t[m[K’ does not name a type; did you mean ‘[01m[Kuint8_t[m[K’?
+   14 |         const [01;31m[Kunit8_t[m[K dxl_id = 1;
+      |               [01;31m[K^~~~~~~[m[K
+      |               [32m[Kuint8_t[m[K
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:24:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kdxl_id[m[K’ was not declared in this scope; did you mean ‘[01m[Kdxl_wb[m[K’?
+   24 |         if (!dxl_wb.ping([01;31m[Kdxl_id[m[K)) {
+      |                          [01;31m[K^~~~~~[m[K
+      |                          [32m[Kdxl_wb[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:1[m[K:
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:29:80:[m[K [01;31m[Kerror: [m[K‘[01m[Kdxl_id[m[K’ was not declared in this scope; did you mean ‘[01m[Kdxl_wb[m[K’?
+   29 |         RCLCPP_INFO(this->get_logger(), "Successfully pinged Dynamixel ID %d", [01;31m[Kdxl_id[m[K);
+      |                                                                                [01;31m[K^~~~~~[m[K
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:39:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kdxl_id[m[K’ was not declared in this scope; did you mean ‘[01m[Kdxl_wb[m[K’?
+   39 |         if (!dxl_wb.jointMode([01;31m[Kdxl_id[m[K)) {
+      |                               [01;31m[K^~~~~~[m[K
+      |                               [32m[Kdxl_wb[m[K
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:77:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kdxl_id[m[K’ was not declared in this scope; did you mean ‘[01m[Kdxl_wb[m[K’?
+   77 |         if (!dxl_wb.goalPosition([01;31m[Kdxl_id[m[K,(int32_t)500)){
+      |                                  [01;31m[K^~~~~~[m[K
+      |                                  [32m[Kdxl_wb[m[K
+gmake[2]: *** [CMakeFiles/dynamixel_controller.dir/build.make:76: CMakeFiles/dynamixel_controller.dir/src/dynamixel_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

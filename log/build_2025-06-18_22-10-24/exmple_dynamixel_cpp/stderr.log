@@ -1,0 +1,16 @@
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:1[m[K:
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:[m[K In constructor ‘[01m[KDynamixelController::[01;32m[KDynamixelController[m[K()[m[K’:
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:42:96:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDynamixelWorkbench::getPresentPositionData(const uint8_t&)[m[K’
+   42 |          RCLCPP_INFO(this->get_logger(), "present positiron %d", [01;31m[Kdxl_wb_.getPresentPositionData(dxl_id)[m[K);
+      |                                                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/dynamixel_workbench_toolbox/dynamixel_workbench.h:77:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool DynamixelWorkbench::[01;32m[KgetPresentPositionData[m[K(uint8_t, int32_t*, const char**)[m[K’
+   77 |   bool [01;36m[KgetPresentPositionData[m[K(uint8_t id, int32_t* data, const char **log = NULL);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/dynamixel_workbench_toolbox/dynamixel_workbench.h:77:8:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/dynamixel_controller.dir/build.make:76: CMakeFiles/dynamixel_controller.dir/src/dynamixel_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

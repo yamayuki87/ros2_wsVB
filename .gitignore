@@ -1,0 +1,77 @@
+#include "rclcpp/rclcpp.hpp"
+#include "dynamixel_workbench_toolbox/dynamixel_workbench.h"
+
+class DynamixelController : public rclcpp::Node
+{
+public:
+    DynamixelController()
+     : Node("dynamixel_controller")
+    {
+        const char *device_name = "/dev/ttyUSB0";
+        const uint32_t baud_rate = 115200;
+        const uint8_t dxl_id = 1;
+        dxl_id_ = dxl_id;
+
+        if (!dxl_wb_.init(device_name, baud_rate)) {
+            RCLCPP_FATAL(this->get_logger(), "Failed to initialize Dynamixel Workbench");
+            rclcpp::shutdown();
+            return;
+        }
+
+        if (!dxl_wb_.ping(dxl_id_)) {
+            RCLCPP_FATAL(this->get_logger(), "Failed to ping Dynamixel ID %d", dxl_id_);
+            rclcpp::shutdown();
+            return;
+        }
+        RCLCPP_INFO(this->get_logger(), "Successfully pinged Dynamixel ID %d", dxl_id_);
+
+        if (!dxl_wb_.setOperatingMode(dxl_id_, 3)) {
+            RCLCPP_FATAL(this->get_logger(), "Failed to set position mode");
+            rclcpp::shutdown();
+            return;
+        }
+        
+
+
+        if (!dxl_wb_.torqueOn(dxl_id_)) {
+            RCLCPP_FATAL(this->get_logger(), "Failed to turn on torque");
+            rclcpp::shutdown();
+            return;
+        }
+        
+         RCLCPP_INFO(this->get_logger(), "present positiron %d", dxl_wb_.getPresentPositionData(dxl_id,0));
+
+
+        // タイマーで処理を遅延実行（1回だけ）
+        timer_ = this->create_wall_timer(
+            std::chrono::seconds(2),
+            std::bind(&DynamixelController::sendGoalPosition, this)
+        );
+    }
+
+private:
+    void sendGoalPosition()
+    {
+        timer_->cancel();  // 一度だけ使うのでキャンセル
+
+        if (!dxl_wb_.goalPosition(dxl_id_, 1000)) {
+            RCLCPP_FATAL(this->get_logger(), "Failed to set goal position");
+        } else {
+            RCLCPP_INFO(this->get_logger(), "Goal position sent");
+        }
+        RCLCPP_INFO(this->get_logger(), "end");
+
+        rclcpp::shutdown();  // 処理後にノード終了
+    }
+
+    DynamixelWorkbench dxl_wb_;
+    rclcpp::TimerBase::SharedPtr timer_;
+    uint8_t dxl_id_;
+};
+
+int main(int argc, char **argv)
+{
+    rclcpp::init(argc, argv);
+    rclcpp::spin(std::make_shared<DynamixelController>());
+    return 0;
+}

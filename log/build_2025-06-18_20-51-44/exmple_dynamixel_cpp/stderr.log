@@ -1,0 +1,7 @@
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:[m[K In constructor ‘[01m[KDynamixelController::[01;32m[KDynamixelController[m[K()[m[K’:
+[01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:77:46:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   77 |         if (!dxl_wb.goalPosition(dxl_id,500);[01;31m[K)[m[K {
+      |                                              [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/dynamixel_controller.dir/build.make:76: CMakeFiles/dynamixel_controller.dir/src/dynamixel_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

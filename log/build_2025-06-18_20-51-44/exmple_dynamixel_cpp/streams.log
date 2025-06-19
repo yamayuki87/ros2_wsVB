@@ -1,0 +1,10 @@
+[0.032s] Invoking command in '/home/yama/ros2_ws/build/exmple_dynamixel_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yama/ros2_ws/build/exmple_dynamixel_cpp -- -j1 -l1
+[0.176s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_controller.dir/src/dynamixel_controller.cpp.o[0m
+[3.615s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:[m[K In constructor ‘[01m[KDynamixelController::[01;32m[KDynamixelController[m[K()[m[K’:
+[3.615s] [01m[K/home/yama/ros2_ws/src/exmple_dynamixel_cpp/src/dynamixel_controller.cpp:77:46:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[3.615s]    77 |         if (!dxl_wb.goalPosition(dxl_id,500);[01;31m[K)[m[K {
+[3.615s]       |                                              [01;31m[K^[m[K
+[4.649s] gmake[2]: *** [CMakeFiles/dynamixel_controller.dir/build.make:76: CMakeFiles/dynamixel_controller.dir/src/dynamixel_controller.cpp.o] Error 1
+[4.649s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dynamixel_controller.dir/all] Error 2
+[4.651s] gmake: *** [Makefile:146: all] Error 2
+[4.655s] Invoked command in '/home/yama/ros2_ws/build/exmple_dynamixel_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yama/ros2_ws/build/exmple_dynamixel_cpp -- -j1 -l1
