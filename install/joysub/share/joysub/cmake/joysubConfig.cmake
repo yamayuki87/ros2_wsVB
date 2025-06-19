@@ -1,1 +1,0 @@
-/home/yama/ros2_ws/build/joysub/ament_cmake_core/joysubConfig.cmake

@@ -1,1 +1,0 @@
-/home/yama/ros2_ws/src/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg

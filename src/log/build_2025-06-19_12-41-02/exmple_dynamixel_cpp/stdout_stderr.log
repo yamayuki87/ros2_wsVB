@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_controller.dir/src/dynamixel_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable dynamixel_controller[0m
+[100%] Built target dynamixel_controller
+-- Install configuration: ""
+-- Installing: /home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/lib/exmple_dynamixel_cpp/dynamixel_controller
+-- Set non-toolchain portion of runtime path of "/home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/lib/exmple_dynamixel_cpp/dynamixel_controller" to ""
+-- Up-to-date: /home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/share/ament_index/resource_index/package_run_dependencies/exmple_dynamixel_cpp
+-- Up-to-date: /home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/share/ament_index/resource_index/parent_prefix_path/exmple_dynamixel_cpp
+-- Up-to-date: /home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/environment/path.sh
+-- Up-to-date: /home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/environment/path.dsv
+-- Up-to-date: /home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/local_setup.bash
+-- Up-to-date: /home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/local_setup.sh
+-- Up-to-date: /home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/local_setup.zsh
+-- Up-to-date: /home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/local_setup.dsv
+-- Installing: /home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/package.dsv
+-- Up-to-date: /home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/share/ament_index/resource_index/packages/exmple_dynamixel_cpp
+-- Up-to-date: /home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/cmake/exmple_dynamixel_cppConfig.cmake
+-- Up-to-date: /home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/cmake/exmple_dynamixel_cppConfig-version.cmake
+-- Up-to-date: /home/yama/ros2_ws/src/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/package.xml

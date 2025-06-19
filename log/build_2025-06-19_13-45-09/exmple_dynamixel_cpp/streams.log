@@ -1,0 +1,63 @@
+[0.069s] Invoking command in '/home/yama/ros2_ws/build/exmple_dynamixel_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yama/ros2_ws/src/exmple_dynamixel_cpp -DCMAKE_INSTALL_PREFIX=/home/yama/ros2_ws/install/exmple_dynamixel_cpp
+[0.569s] -- The C compiler identification is GNU 13.3.0
+[0.820s] -- The CXX compiler identification is GNU 13.3.0
+[0.979s] -- Detecting C compiler ABI info
+[1.289s] -- Detecting C compiler ABI info - done
+[1.297s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.357s] -- Detecting C compile features
+[1.361s] -- Detecting C compile features - done
+[1.428s] -- Detecting CXX compiler ABI info
+[1.718s] -- Detecting CXX compiler ABI info - done
+[1.725s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.726s] -- Detecting CXX compile features
+[1.727s] -- Detecting CXX compile features - done
+[1.821s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.146s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.462s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.679s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.729s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.821s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.887s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.146s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.156s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.371s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.415s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.480s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.843s] -- Found dynamixel_workbench_toolbox: 2.2.4 (/opt/ros/jazzy/share/dynamixel_workbench_toolbox/cmake)
+[3.881s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.222s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.223s] -- Configured cppcheck include dirs: /home/yama/ros2_ws/src/exmple_dynamixel_cpp/include
+[4.223s] -- Configured cppcheck exclude dirs and/or files: 
+[4.227s] -- Added test 'lint_cmake' to check CMake code style
+[4.228s] -- Added test 'uncrustify' to check C / C++ code style
+[4.228s] -- Configured uncrustify additional arguments: 
+[4.230s] -- Added test 'xmllint' to check XML markup files
+[4.233s] -- Configuring done (4.1s)
+[4.266s] -- Generating done (0.0s)
+[4.278s] -- Build files have been written to: /home/yama/ros2_ws/build/exmple_dynamixel_cpp
+[4.309s] Invoked command in '/home/yama/ros2_ws/build/exmple_dynamixel_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yama/ros2_ws/src/exmple_dynamixel_cpp -DCMAKE_INSTALL_PREFIX=/home/yama/ros2_ws/install/exmple_dynamixel_cpp
+[4.310s] Invoking command in '/home/yama/ros2_ws/build/exmple_dynamixel_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yama/ros2_ws/build/exmple_dynamixel_cpp -- -j1 -l1
+[4.406s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_controller.dir/src/dynamixel_controller.cpp.o[0m
+[11.397s] [100%] [32m[1mLinking CXX executable dynamixel_controller[0m
+[11.689s] [100%] Built target dynamixel_controller
+[11.704s] Invoked command in '/home/yama/ros2_ws/build/exmple_dynamixel_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yama/ros2_ws/build/exmple_dynamixel_cpp -- -j1 -l1
+[11.740s] Invoking command in '/home/yama/ros2_ws/build/exmple_dynamixel_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yama/ros2_ws/build/exmple_dynamixel_cpp
+[11.766s] -- Install configuration: ""
+[11.768s] -- Installing: /home/yama/ros2_ws/install/exmple_dynamixel_cpp/lib/exmple_dynamixel_cpp/dynamixel_controller
+[11.768s] -- Set non-toolchain portion of runtime path of "/home/yama/ros2_ws/install/exmple_dynamixel_cpp/lib/exmple_dynamixel_cpp/dynamixel_controller" to ""
+[11.769s] -- Installing: /home/yama/ros2_ws/install/exmple_dynamixel_cpp/share/ament_index/resource_index/package_run_dependencies/exmple_dynamixel_cpp
+[11.771s] -- Installing: /home/yama/ros2_ws/install/exmple_dynamixel_cpp/share/ament_index/resource_index/parent_prefix_path/exmple_dynamixel_cpp
+[11.771s] -- Installing: /home/yama/ros2_ws/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/environment/ament_prefix_path.sh
+[11.772s] -- Installing: /home/yama/ros2_ws/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/environment/ament_prefix_path.dsv
+[11.772s] -- Installing: /home/yama/ros2_ws/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/environment/path.sh
+[11.773s] -- Installing: /home/yama/ros2_ws/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/environment/path.dsv
+[11.773s] -- Installing: /home/yama/ros2_ws/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/local_setup.bash
+[11.773s] -- Installing: /home/yama/ros2_ws/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/local_setup.sh
+[11.774s] -- Installing: /home/yama/ros2_ws/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/local_setup.zsh
+[11.774s] -- Installing: /home/yama/ros2_ws/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/local_setup.dsv
+[11.774s] -- Installing: /home/yama/ros2_ws/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/package.dsv
+[11.775s] -- Installing: /home/yama/ros2_ws/install/exmple_dynamixel_cpp/share/ament_index/resource_index/packages/exmple_dynamixel_cpp
+[11.777s] -- Installing: /home/yama/ros2_ws/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/cmake/exmple_dynamixel_cppConfig.cmake
+[11.777s] -- Installing: /home/yama/ros2_ws/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/cmake/exmple_dynamixel_cppConfig-version.cmake
+[11.777s] -- Installing: /home/yama/ros2_ws/install/exmple_dynamixel_cpp/share/exmple_dynamixel_cpp/package.xml
+[11.787s] Invoked command in '/home/yama/ros2_ws/build/exmple_dynamixel_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yama/ros2_ws/build/exmple_dynamixel_cpp

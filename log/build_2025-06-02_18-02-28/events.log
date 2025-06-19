@@ -1,7 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.016842] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
-[0.016927] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
-[0.016940] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
-[0.016949] (-) JobUnselected: {'identifier': 'exmple_dynamixel_cpp'}
-[0.016957] (-) JobUnselected: {'identifier': 'joysub'}
-[0.016967] (-) EventReactorShutdown: {}
