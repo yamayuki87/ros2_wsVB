@@ -1,1 +1,0 @@
-/home/yama/ros2_ws/src/build/joysub/ament_cmake_environment_hooks/local_setup.bash

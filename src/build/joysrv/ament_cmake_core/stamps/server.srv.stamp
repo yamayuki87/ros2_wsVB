@@ -1,4 +1,0 @@
-int32 button_index
-bool button_state
----
-bool change
