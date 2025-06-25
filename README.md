@@ -13,7 +13,9 @@
 +- **joyserv** – ジョイスティック入力をトピック配信するノード
 
 +- **joysub** – パッケージは未整備のディレクトリ
-+
++```bash
++```bash
++```bash
 +## ビルド方法
 +1. ROS 2 をあらかじめセットアップします。
 +   source /opt/ros/jazzy/setup.bash
