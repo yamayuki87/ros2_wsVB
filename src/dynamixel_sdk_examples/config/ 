@@ -1,4 +1,0 @@
-port_name: "/dev/ttyUSB0"
-baud_rate: 115200
-dxl_id: 1
-
