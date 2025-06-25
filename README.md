@@ -1,9 +1,3 @@
-diff --git a//dev/null b/README.md
-index 0000000000000000000000000000000000000000..362d8f980ce32b0dcbcc591e1b01508b8bc67b61 100644
---- a//dev/null
-+++ b/README.md
-@@ -0,0 +1,29 @@
-+# ROS 2 Workspace
 +
 +This repository contains a set of ROS 2 packages for working with Dynamixel actuators and joystick input.
 +
