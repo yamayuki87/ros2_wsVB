@@ -87,6 +87,9 @@ private:
         int32_t current_pos = 0;
         if (dxl_wb.getPresentPositionData(dxl_id, &current_pos, &log_cstr)) {
             response->success = (std::abs(current_pos - request->value) < threshold);
+        } else {
+            response->success = false;
+            RCLCPP_ERROR(this->get_logger(), "%s", log_cstr);
         }
 
         if (response->success) {
