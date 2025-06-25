@@ -1,10 +1,4 @@
-# プロジェクト名
-
-## 概要
-このリポジトリは〇〇〇を目的としたROS2パッケージ群です。
-
 ---
-
 ## パッケージ一覧
 
 - **command_dyposition** – サーボ位置を指令するサービスの例
@@ -19,8 +13,8 @@
 
 ## 動作環境
 
-- OS：Ubuntu 22.04
-- ROS2ディストリビューション：Humble / Iron / Jazzy（選択）
+- OS：Ubuntu 24.04
+- ROS2ディストリビューション：Jazzy
 
 ---
 
@@ -31,8 +25,7 @@
 source /opt/ros/jazzy/setup.bash
 
 # このリポジトリをクローン
-git clone https://github.com/your_account/your_repo.git
-cd your_repo
+git clone https://github.com/yamayuki87/ros2_wsVB.git
 
 # 依存パッケージインストール（必要な場合）
 rosdep install --from-paths src --ignore-src -r -y
