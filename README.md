@@ -17,11 +17,8 @@
 +## ビルド方法
 +1. ROS 2 をあらかじめセットアップします。
 +   source /opt/ros/jazzy/setup.bash
-+   ```
 +2. 本ワークスペースのルートで `colcon` を実行します。
-+   ```bash
 +   colcon build --symlink-install
-+   ```
 +3. ビルド後はワークスペースを読み込みます。
 +   ```bash
 +   source install/setup.bash
