@@ -31,6 +31,7 @@ int main(int argc, char **argv)
     }
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "service not available, waiting again...");
   }
+  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "service is now available");
 
   auto result = client->async_send_request(request);
   // Wait for the result.

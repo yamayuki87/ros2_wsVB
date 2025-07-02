@@ -15,7 +15,7 @@ private:
   void joy_callback(const sensor_msgs::msg::Joy::SharedPtr msg)
   {
     if (msg->buttons.size() > 0 && msg->buttons[0] == 1) {
-      RCLCPP_INFO(this->get_logger(), "Button A pressed!");
+      RCLCPP_INFO(this->get_logger(), "Button X pressed!");
     }
   }
 
