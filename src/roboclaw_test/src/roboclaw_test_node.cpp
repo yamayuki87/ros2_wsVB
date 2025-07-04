@@ -1,3 +1,4 @@
+
 #include <rclcpp/rclcpp.hpp>
 #include <fcntl.h>
 #include <termios.h>
@@ -10,7 +11,7 @@ class RoboClawTestNode : public rclcpp::Node
 public:
     RoboClawTestNode() : Node("roboclaw_test_node")
     {
-        std::string port = "/dev/ttyUSB0";  // 実際の接続先に応じて変更
+        std::string port = "/dev/ttyACM0";  // 実際の接続先に応じて変更
         int baudrate = B115200;              // Motion Studioで設定したボーレートに合わせる
 
         // シリアルポートオープン

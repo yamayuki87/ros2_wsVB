@@ -1,21 +1,21 @@
 #include <rclcpp/rclcpp.hpp>
-#include "sensor_msgs/msg/joy.hpp"
+#include <sensor_msgs/msg/joy.hpp>
 #include <fcntl.h>
 #include <termios.h>
 #include <unistd.h>
 #include <vector>
 #include <cstdint>
-#include <algorithm>  
+#include <cmath>
 
-class RoboClawSpeedNode : public rclcpp::Node
+class RoboClawJoyNode : public rclcpp::Node
 {
 public:
-    RoboClawSpeedNode() : Node("roboclaw_speed_node")
+    RoboClawJoyNode() : Node("roboclaw_joy_node")
     {
-        std::string port = "/dev/ttyACM0";  // 実際のポートに合わせる
+        std::string port = "/dev/ttyACM0";
         int baudrate = B115200;
 
-        // シリアルポートオープン
+        // シリアルポート設定
         fd_ = open(port.c_str(), O_RDWR | O_NOCTTY | O_SYNC);
         if (fd_ < 0) {
             RCLCPP_ERROR(this->get_logger(), "Cannot open serial port %s", port.c_str());
@@ -24,10 +24,7 @@ public:
         }
 
         struct termios tty{};
-        if (tcgetattr(fd_, &tty) != 0) {
-            RCLCPP_ERROR(this->get_logger(), "Error from tcgetattr");
-            return;
-        }
+        tcgetattr(fd_, &tty);
         cfsetospeed(&tty, baudrate);
         cfsetispeed(&tty, baudrate);
         tty.c_cflag |= (CLOCAL | CREAD);
@@ -40,32 +37,30 @@ public:
 
         RCLCPP_INFO(this->get_logger(), "Serial port opened");
 
-        subscription_ = this->create_subscription<sensor_msgs::msg::Joy>(
+       
+        joy_sub_ = this->create_subscription<sensor_msgs::msg::Joy>(
             "joy", 10,
-            [this](sensor_msgs::msg::Joy::UniquePtr msg) {
-                if (msg->axes.size() > 0) {
-                    float input = msg->axes[0];
-                    input = std::clamp(input, -1.0f, 1.0f);  // 安全対策
+            [this](const sensor_msgs::msg::Joy::SharedPtr msg) {
+                if (msg->axes.empty()) return;
 
-                    int32_t speed = static_cast<int32_t>(input * max_speed_);
-                    RCLCPP_INFO(this->get_logger(), "Axes[0]: %f -> Speed: %d", input, speed);
-                    sendSetM1Speed(0x80, speed);
+                float raw = msg->axes[0];  // -1.0 ~ 1.0
+                int speed = static_cast<int>(std::round(raw * 127));
+
+                if (speed >= 0) {
+                    send_forward_command(0x80, static_cast<uint8_t>(speed));
                 } else {
-                    RCLCPP_WARN(this->get_logger(), "Joy axes[0] not available");
+                    send_backward_command(0x80, static_cast<uint8_t>(-speed));
                 }
-                
-    });
-
+            });
     }
 
-    ~RoboClawSpeedNode() {
+    ~RoboClawJoyNode() {
         if (fd_ >= 0) close(fd_);
     }
 
 private:
     int fd_;
-    const int32_t max_speed_ = 50000;
-    rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr subscription_;
+    rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr joy_sub_;
 
     uint16_t crc16(const std::vector<uint8_t>& buffer) {
         uint16_t crc = 0;
@@ -79,31 +74,29 @@ private:
         return crc;
     }
 
-    void sendSetM1Speed(uint8_t address, int32_t speed) {
-        std::vector<uint8_t> packet;
-        packet.push_back(address);          // Address (例: 0x80)
-        packet.push_back(35);               // Command: SetM1Speed (35)
-
-        // Speedはint32_t、LSBファーストで送信
-        packet.push_back((speed >> 24) & 0xFF);
-        packet.push_back((speed >> 16) & 0xFF);
-        packet.push_back((speed >> 8) & 0xFF);
-        packet.push_back(speed & 0xFF);
-
+    void send_forward_command(uint8_t address, uint8_t speed) {
+        std::vector<uint8_t> packet = {address, 0x00, speed};
         uint16_t crc = crc16(packet);
         packet.push_back((crc >> 8) & 0xFF);
         packet.push_back(crc & 0xFF);
-
         write(fd_, packet.data(), packet.size());
+        RCLCPP_INFO(this->get_logger(), "Sent forward command (speed=%d)", speed);
+    }
 
-        RCLCPP_INFO(this->get_logger(), "Sent SetM1Speed: %d", speed);
+    void send_backward_command(uint8_t address, uint8_t speed) {
+        std::vector<uint8_t> packet = {address, 0x01, speed};
+        uint16_t crc = crc16(packet);
+        packet.push_back((crc >> 8) & 0xFF);
+        packet.push_back(crc & 0xFF);
+        write(fd_, packet.data(), packet.size());
+        RCLCPP_INFO(this->get_logger(), "Sent backward command (speed=%d)", speed);
     }
 };
 
 int main(int argc, char *argv[])
 {
     rclcpp::init(argc, argv);
-    rclcpp::spin(std::make_shared<RoboClawSpeedNode>());
+    rclcpp::spin(std::make_shared<RoboClawJoyNode>());
     rclcpp::shutdown();
     return 0;
 }
