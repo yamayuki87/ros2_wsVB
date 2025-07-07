@@ -1,3 +1,4 @@
+
 #include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/joy.hpp>
 #include <fcntl.h>
@@ -12,7 +13,7 @@ class RoboClawJoyNode : public rclcpp::Node
 public:
     RoboClawJoyNode() : Node("roboclaw_joy_node")
     {
-        std::string port = "/dev/ttyACM0";
+        std::string port = "/dev/ttyACM1";
         int baudrate = B115200;
 
         // シリアルポート設定
@@ -43,18 +44,13 @@ public:
             [this](const sensor_msgs::msg::Joy::SharedPtr msg) {
                 if (msg->axes.empty()) return;
 
-                float raw = msg->axes[1];  // -1.0 ~ 1.0
-                int target_speed = static_cast<int>(std::round(raw * 127));
+                float raw = msg->axes[0];  // -1.0 ~ 1.0
+                int speed = static_cast<int>(std::round(raw * 127));
 
-                const float alpha = 0.2f;  // smoothing 係数
-                smoothed_speed_ = static_cast<int>(
-                std::round(alpha * target_speed + (1 - alpha) * smoothed_speed_)
-                );
-
-                if (smoothed_speed_ >= 0) {
-                    send_forward_command(0x80, static_cast<uint8_t>(smoothed_speed_));
+                if (speed >= 0) {
+                    send_forward_command(0x80, static_cast<uint8_t>(speed));
                 } else {
-                    send_backward_command(0x80, static_cast<uint8_t>(-smoothed_speed_));
+                    send_backward_command(0x80, static_cast<uint8_t>(-speed));
                 }
             });
     }
@@ -65,7 +61,6 @@ public:
 
 private:
     int fd_;
-    int smoothed_speed_ = 0;
     rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr joy_sub_;
 
     uint16_t crc16(const std::vector<uint8_t>& buffer) {
