@@ -77,9 +77,9 @@ public:
                     smoothed_speed1_=0;
 
                 if (smoothed_speed1_ >= 0) {
-                    send_command(0x80, 0x00, static_cast<uint8_t>(smoothed_speed1_)); //moter1 nomal ratation
+                    send_command(0x80, 0x00, static_cast<uint8_t>(smoothed_speed1_)); //moter1 nomal rotation
                 } else{
-                    send_command(0x80, 0x01, static_cast<uint8_t>(-smoothed_speed1_)); //moter1 reversal ratation
+                    send_command(0x80, 0x01, static_cast<uint8_t>(-smoothed_speed1_)); //moter1 reversal rotation
                 }
             
 
@@ -96,9 +96,9 @@ public:
                     smoothed_speed2_=0;
 
                 if (smoothed_speed2_ >= 0) {
-                    send_command(0x80, 0x04, static_cast<uint8_t>(smoothed_speed2_)); //moter2 nomal ratation
+                    send_command(0x80, 0x04, static_cast<uint8_t>(smoothed_speed2_)); //moter2 nomal rotation
                 } else{
-                    send_command(0x80, 0x05, static_cast<uint8_t>(-smoothed_speed2_)); //moter2 reversal ratation
+                    send_command(0x80, 0x05, static_cast<uint8_t>(-smoothed_speed2_)); //moter2 reversal rotation
                 }
 
             });
