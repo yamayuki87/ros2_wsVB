@@ -19,7 +19,7 @@
 #define BAUDRATE 115200  
 #define DEVICE_NAME "/dev/ttyUSB0"
 
-// Dynamixel SDK's classes
+
 dynamixel::PortHandler * portHandler; 
 dynamixel::PacketHandler * packetHandler;
 
