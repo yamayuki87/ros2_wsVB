@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(rocup_cpp)
+project(dycontrol_vel)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -9,6 +9,19 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(dynamixel_sdk REQUIRED)
+find_package(dynamixel_sdk_custom_interfaces REQUIRED)
+
+add_executable(dycontrol_vel src/dyvel.cpp)
+ament_target_dependencies(dycontrol_vel 
+  rclcpp 
+  dynamixel_sdk 
+  dynamixel_sdk_custom_interfaces
+  sensor_msgs)
+  
+install(TARGETS
+  dycontrol_vel
+  DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
