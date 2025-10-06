@@ -12,7 +12,7 @@ int main(int argc, char **argv)
   rclcpp::init(argc, argv);
 
   if (argc != 2) {
-      RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "usage: dynamixek_control_client X"); //set postion value
+      RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "usage: dynamixel_control_client X"); // set position value
       return 1;
   }
 
@@ -38,7 +38,7 @@ int main(int argc, char **argv)
   if (rclcpp::spin_until_future_complete(node, result) ==
     rclcpp::FutureReturnCode::SUCCESS)
   {
-    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Succesed to set correct position");
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Succeeded to set correct position");
 
   } else {
     RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to set correct position");
